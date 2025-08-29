@@ -1,0 +1,6274 @@
+/**
+ * @file icon.css
+ */
+
+@font-face {
+    font-family: "BoldPixels";
+    src: url("BoldPixels.eot"); /* IE9 */
+    src: url("BoldPixels.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("BoldPixels.woff2") format("woff2"), /* chrome、firefox、opera、Safari, Android, iOS */
+    url("BoldPixels.woff") format("woff"), /* chrome、firefox */
+    url("BoldPixels.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("BoldPixels.svg#uxfonteditor") format("svg"); /* iOS 4.1- */
+}
+
+
+.icon {
+    font-family: "BoldPixels" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-exclam:before {
+  content: "\21";
+}
+
+.icon-quotedbl:before {
+  content: "\22";
+}
+
+.icon-numbersign:before {
+  content: "\23";
+}
+
+.icon-dollar:before {
+  content: "\24";
+}
+
+.icon-percent:before {
+  content: "\25";
+}
+
+.icon-ampersand:before {
+  content: "\26";
+}
+
+.icon-quotesingle:before {
+  content: "\27";
+}
+
+.icon-parenleft:before {
+  content: "\28";
+}
+
+.icon-parenright:before {
+  content: "\29";
+}
+
+.icon-asterisk:before {
+  content: "\2a";
+}
+
+.icon-plus:before {
+  content: "\2b";
+}
+
+.icon-comma:before {
+  content: "\2c";
+}
+
+.icon-hyphen:before {
+  content: "\2d";
+}
+
+.icon-period:before {
+  content: "\2e";
+}
+
+.icon-slash:before {
+  content: "\2f";
+}
+
+.icon-zero:before {
+  content: "\30";
+}
+
+.icon-one:before {
+  content: "\31";
+}
+
+.icon-two:before {
+  content: "\32";
+}
+
+.icon-three:before {
+  content: "\33";
+}
+
+.icon-four:before {
+  content: "\34";
+}
+
+.icon-five:before {
+  content: "\35";
+}
+
+.icon-six:before {
+  content: "\36";
+}
+
+.icon-seven:before {
+  content: "\37";
+}
+
+.icon-eight:before {
+  content: "\38";
+}
+
+.icon-nine:before {
+  content: "\39";
+}
+
+.icon-colon:before {
+  content: "\3a";
+}
+
+.icon-semicolon:before {
+  content: "\3b";
+}
+
+.icon-less:before {
+  content: "\3c";
+}
+
+.icon-equal:before {
+  content: "\3d";
+}
+
+.icon-greater:before {
+  content: "\3e";
+}
+
+.icon-question:before {
+  content: "\3f";
+}
+
+.icon-at:before {
+  content: "\40";
+}
+
+.icon-A:before {
+  content: "\41";
+}
+
+.icon-B:before {
+  content: "\42";
+}
+
+.icon-C:before {
+  content: "\43";
+}
+
+.icon-D:before {
+  content: "\44";
+}
+
+.icon-E:before {
+  content: "\45";
+}
+
+.icon-F:before {
+  content: "\46";
+}
+
+.icon-G:before {
+  content: "\47";
+}
+
+.icon-H:before {
+  content: "\48";
+}
+
+.icon-I:before {
+  content: "\49";
+}
+
+.icon-J:before {
+  content: "\4a";
+}
+
+.icon-K:before {
+  content: "\4b";
+}
+
+.icon-L:before {
+  content: "\4c";
+}
+
+.icon-M:before {
+  content: "\4d";
+}
+
+.icon-N:before {
+  content: "\4e";
+}
+
+.icon-O:before {
+  content: "\4f";
+}
+
+.icon-P:before {
+  content: "\50";
+}
+
+.icon-Q:before {
+  content: "\51";
+}
+
+.icon-R:before {
+  content: "\52";
+}
+
+.icon-S:before {
+  content: "\53";
+}
+
+.icon-T:before {
+  content: "\54";
+}
+
+.icon-U:before {
+  content: "\55";
+}
+
+.icon-V:before {
+  content: "\56";
+}
+
+.icon-W:before {
+  content: "\57";
+}
+
+.icon-X:before {
+  content: "\58";
+}
+
+.icon-Y:before {
+  content: "\59";
+}
+
+.icon-Z:before {
+  content: "\5a";
+}
+
+.icon-bracketleft:before {
+  content: "\5b";
+}
+
+.icon-backslash:before {
+  content: "\5c";
+}
+
+.icon-bracketright:before {
+  content: "\5d";
+}
+
+.icon-asciicircum:before {
+  content: "\5e";
+}
+
+.icon-underscore:before {
+  content: "\5f";
+}
+
+.icon-grave:before {
+  content: "\60";
+}
+
+.icon-a:before {
+  content: "\61";
+}
+
+.icon-b:before {
+  content: "\62";
+}
+
+.icon-c:before {
+  content: "\63";
+}
+
+.icon-d:before {
+  content: "\64";
+}
+
+.icon-e:before {
+  content: "\65";
+}
+
+.icon-f:before {
+  content: "\66";
+}
+
+.icon-g:before {
+  content: "\67";
+}
+
+.icon-h:before {
+  content: "\68";
+}
+
+.icon-i:before {
+  content: "\69";
+}
+
+.icon-j:before {
+  content: "\6a";
+}
+
+.icon-k:before {
+  content: "\6b";
+}
+
+.icon-l:before {
+  content: "\6c";
+}
+
+.icon-m:before {
+  content: "\6d";
+}
+
+.icon-n:before {
+  content: "\6e";
+}
+
+.icon-o:before {
+  content: "\6f";
+}
+
+.icon-p:before {
+  content: "\70";
+}
+
+.icon-q:before {
+  content: "\71";
+}
+
+.icon-r:before {
+  content: "\72";
+}
+
+.icon-s:before {
+  content: "\73";
+}
+
+.icon-t:before {
+  content: "\74";
+}
+
+.icon-u:before {
+  content: "\75";
+}
+
+.icon-v:before {
+  content: "\76";
+}
+
+.icon-w:before {
+  content: "\77";
+}
+
+.icon-x:before {
+  content: "\78";
+}
+
+.icon-y:before {
+  content: "\79";
+}
+
+.icon-z:before {
+  content: "\7a";
+}
+
+.icon-braceleft:before {
+  content: "\7b";
+}
+
+.icon-bar:before {
+  content: "\7c";
+}
+
+.icon-braceright:before {
+  content: "\7d";
+}
+
+.icon-asciitilde:before {
+  content: "\7e";
+}
+
+.icon-exclamdown:before {
+  content: "\a1";
+}
+
+.icon-cent:before {
+  content: "\a2";
+}
+
+.icon-sterling:before {
+  content: "\a3";
+}
+
+.icon-currency:before {
+  content: "\a4";
+}
+
+.icon-yen:before {
+  content: "\a5";
+}
+
+.icon-brokenbar:before {
+  content: "\a6";
+}
+
+.icon-section:before {
+  content: "\a7";
+}
+
+.icon-dieresis:before {
+  content: "\a8";
+}
+
+.icon-copyright:before {
+  content: "\a9";
+}
+
+.icon-ordfeminine:before {
+  content: "\aa";
+}
+
+.icon-guillemotleft:before {
+  content: "\ab";
+}
+
+.icon-logicalnot:before {
+  content: "\ac";
+}
+
+.icon-Softhyphen:before {
+  content: "\ad";
+}
+
+.icon-registered:before {
+  content: "\ae";
+}
+
+.icon-macron:before {
+  content: "\af";
+}
+
+.icon-degree:before {
+  content: "\b0";
+}
+
+.icon-plusminus:before {
+  content: "\b1";
+}
+
+.icon-Superscripttwo:before {
+  content: "\b2";
+}
+
+.icon-Superscriptthree:before {
+  content: "\b3";
+}
+
+.icon-acute:before {
+  content: "\b4";
+}
+
+.icon-mu:before {
+  content: "\b5";
+}
+
+.icon-paragraph:before {
+  content: "\b6";
+}
+
+.icon-periodcentered:before {
+  content: "\b7";
+}
+
+.icon-cedilla:before {
+  content: "\b8";
+}
+
+.icon-Superscriptone:before {
+  content: "\b9";
+}
+
+.icon-ordmasculine:before {
+  content: "\ba";
+}
+
+.icon-guillemotright:before {
+  content: "\bb";
+}
+
+.icon-onequarter:before {
+  content: "\bc";
+}
+
+.icon-onehalf:before {
+  content: "\bd";
+}
+
+.icon-threequarters:before {
+  content: "\be";
+}
+
+.icon-questiondown:before {
+  content: "\bf";
+}
+
+.icon-Agrave:before {
+  content: "\c0";
+}
+
+.icon-Aacute:before {
+  content: "\c1";
+}
+
+.icon-Acircumflex:before {
+  content: "\c2";
+}
+
+.icon-Atilde:before {
+  content: "\c3";
+}
+
+.icon-Adieresis:before {
+  content: "\c4";
+}
+
+.icon-Aring:before {
+  content: "\c5";
+}
+
+.icon-AE:before {
+  content: "\c6";
+}
+
+.icon-Ccedilla:before {
+  content: "\c7";
+}
+
+.icon-Egrave:before {
+  content: "\c8";
+}
+
+.icon-Eacute:before {
+  content: "\c9";
+}
+
+.icon-Ecircumflex:before {
+  content: "\ca";
+}
+
+.icon-Edieresis:before {
+  content: "\cb";
+}
+
+.icon-Igrave:before {
+  content: "\cc";
+}
+
+.icon-Iacute:before {
+  content: "\cd";
+}
+
+.icon-Icircumflex:before {
+  content: "\ce";
+}
+
+.icon-Idieresis:before {
+  content: "\cf";
+}
+
+.icon-Eth:before {
+  content: "\d0";
+}
+
+.icon-Ntilde:before {
+  content: "\d1";
+}
+
+.icon-Ograve:before {
+  content: "\d2";
+}
+
+.icon-Oacute:before {
+  content: "\d3";
+}
+
+.icon-Ocircumflex:before {
+  content: "\d4";
+}
+
+.icon-Otilde:before {
+  content: "\d5";
+}
+
+.icon-Odieresis:before {
+  content: "\d6";
+}
+
+.icon-multiply:before {
+  content: "\d7";
+}
+
+.icon-Oslash:before {
+  content: "\d8";
+}
+
+.icon-Ugrave:before {
+  content: "\d9";
+}
+
+.icon-Uacute:before {
+  content: "\da";
+}
+
+.icon-Ucircumflex:before {
+  content: "\db";
+}
+
+.icon-Udieresis:before {
+  content: "\dc";
+}
+
+.icon-Yacute:before {
+  content: "\dd";
+}
+
+.icon-Thorn:before {
+  content: "\de";
+}
+
+.icon-germandbls:before {
+  content: "\df";
+}
+
+.icon-agrave:before {
+  content: "\e0";
+}
+
+.icon-aacute:before {
+  content: "\e1";
+}
+
+.icon-acircumflex:before {
+  content: "\e2";
+}
+
+.icon-atilde:before {
+  content: "\e3";
+}
+
+.icon-adieresis:before {
+  content: "\e4";
+}
+
+.icon-aring:before {
+  content: "\e5";
+}
+
+.icon-ae:before {
+  content: "\e6";
+}
+
+.icon-ccedilla:before {
+  content: "\e7";
+}
+
+.icon-egrave:before {
+  content: "\e8";
+}
+
+.icon-eacute:before {
+  content: "\e9";
+}
+
+.icon-ecircumflex:before {
+  content: "\ea";
+}
+
+.icon-edieresis:before {
+  content: "\eb";
+}
+
+.icon-igrave:before {
+  content: "\ec";
+}
+
+.icon-iacute:before {
+  content: "\ed";
+}
+
+.icon-icircumflex:before {
+  content: "\ee";
+}
+
+.icon-idieresis:before {
+  content: "\ef";
+}
+
+.icon-eth:before {
+  content: "\f0";
+}
+
+.icon-ntilde:before {
+  content: "\f1";
+}
+
+.icon-ograve:before {
+  content: "\f2";
+}
+
+.icon-oacute:before {
+  content: "\f3";
+}
+
+.icon-ocircumflex:before {
+  content: "\f4";
+}
+
+.icon-otilde:before {
+  content: "\f5";
+}
+
+.icon-odieresis:before {
+  content: "\f6";
+}
+
+.icon-divide:before {
+  content: "\f7";
+}
+
+.icon-oslash:before {
+  content: "\f8";
+}
+
+.icon-ugrave:before {
+  content: "\f9";
+}
+
+.icon-uacute:before {
+  content: "\fa";
+}
+
+.icon-ucircumflex:before {
+  content: "\fb";
+}
+
+.icon-udieresis:before {
+  content: "\fc";
+}
+
+.icon-yacute:before {
+  content: "\fd";
+}
+
+.icon-thorn:before {
+  content: "\fe";
+}
+
+.icon-ydieresis:before {
+  content: "\ff";
+}
+
+.icon-Amacron:before {
+  content: "\100";
+}
+
+.icon-amacron:before {
+  content: "\101";
+}
+
+.icon-Abreve:before {
+  content: "\102";
+}
+
+.icon-abreve:before {
+  content: "\103";
+}
+
+.icon-Aogonek:before {
+  content: "\104";
+}
+
+.icon-aogonek:before {
+  content: "\105";
+}
+
+.icon-Cacute:before {
+  content: "\106";
+}
+
+.icon-cacute:before {
+  content: "\107";
+}
+
+.icon-Ccircumflex:before {
+  content: "\108";
+}
+
+.icon-ccircumflex:before {
+  content: "\109";
+}
+
+.icon-Cdotaccent:before {
+  content: "\10a";
+}
+
+.icon-cdotaccent:before {
+  content: "\10b";
+}
+
+.icon-Ccaron:before {
+  content: "\10c";
+}
+
+.icon-ccaron:before {
+  content: "\10d";
+}
+
+.icon-Dcaron:before {
+  content: "\10e";
+}
+
+.icon-dcaron:before {
+  content: "\10f";
+}
+
+.icon-Dcroat:before {
+  content: "\110";
+}
+
+.icon-dcroat:before {
+  content: "\111";
+}
+
+.icon-Emacron:before {
+  content: "\112";
+}
+
+.icon-emacron:before {
+  content: "\113";
+}
+
+.icon-Ebreve:before {
+  content: "\114";
+}
+
+.icon-ebreve:before {
+  content: "\115";
+}
+
+.icon-Edotaccent:before {
+  content: "\116";
+}
+
+.icon-edotaccent:before {
+  content: "\117";
+}
+
+.icon-Eogonek:before {
+  content: "\118";
+}
+
+.icon-eogonek:before {
+  content: "\119";
+}
+
+.icon-Ecaron:before {
+  content: "\11a";
+}
+
+.icon-ecaron:before {
+  content: "\11b";
+}
+
+.icon-Gcircumflex:before {
+  content: "\11c";
+}
+
+.icon-gcircumflex:before {
+  content: "\11d";
+}
+
+.icon-Gbreve:before {
+  content: "\11e";
+}
+
+.icon-gbreve:before {
+  content: "\11f";
+}
+
+.icon-Gdotaccent:before {
+  content: "\120";
+}
+
+.icon-gdotaccent:before {
+  content: "\121";
+}
+
+.icon-CapitalLetterGwithce:before {
+  content: "\122";
+}
+
+.icon-SmallLetterGwithcedi:before {
+  content: "\123";
+}
+
+.icon-Hcircumflex:before {
+  content: "\124";
+}
+
+.icon-hcircumflex:before {
+  content: "\125";
+}
+
+.icon-Hbar:before {
+  content: "\126";
+}
+
+.icon-hbar:before {
+  content: "\127";
+}
+
+.icon-Itilde:before {
+  content: "\128";
+}
+
+.icon-itilde:before {
+  content: "\129";
+}
+
+.icon-Imacron:before {
+  content: "\12a";
+}
+
+.icon-imacron:before {
+  content: "\12b";
+}
+
+.icon-Ibreve:before {
+  content: "\12c";
+}
+
+.icon-ibreve:before {
+  content: "\12d";
+}
+
+.icon-Iogonek:before {
+  content: "\12e";
+}
+
+.icon-iogonek:before {
+  content: "\12f";
+}
+
+.icon-Idotaccent:before {
+  content: "\130";
+}
+
+.icon-dotlessi:before {
+  content: "\131";
+}
+
+.icon-IJ:before {
+  content: "\132";
+}
+
+.icon-ij:before {
+  content: "\133";
+}
+
+.icon-Jcircumflex:before {
+  content: "\134";
+}
+
+.icon-jcircumflex:before {
+  content: "\135";
+}
+
+.icon-CapitalLetterKwithce:before {
+  content: "\136";
+}
+
+.icon-SmallLetterKwithcedi:before {
+  content: "\137";
+}
+
+.icon-kgreenlandic:before {
+  content: "\138";
+}
+
+.icon-Lacute:before {
+  content: "\139";
+}
+
+.icon-lacute:before {
+  content: "\13a";
+}
+
+.icon-CapitalLetterLwithce:before {
+  content: "\13b";
+}
+
+.icon-SmallLetterLwithcedi:before {
+  content: "\13c";
+}
+
+.icon-Lcaron:before {
+  content: "\13d";
+}
+
+.icon-lcaron:before {
+  content: "\13e";
+}
+
+.icon-Ldot:before {
+  content: "\13f";
+}
+
+.icon-ldot:before {
+  content: "\140";
+}
+
+.icon-Lslash:before {
+  content: "\141";
+}
+
+.icon-lslash:before {
+  content: "\142";
+}
+
+.icon-Nacute:before {
+  content: "\143";
+}
+
+.icon-nacute:before {
+  content: "\144";
+}
+
+.icon-CapitalLetterNwithce:before {
+  content: "\145";
+}
+
+.icon-SmallLetterNwithcedi:before {
+  content: "\146";
+}
+
+.icon-Ncaron:before {
+  content: "\147";
+}
+
+.icon-ncaron:before {
+  content: "\148";
+}
+
+.icon-napostrophe:before {
+  content: "\149";
+}
+
+.icon-Eng:before {
+  content: "\14a";
+}
+
+.icon-eng:before {
+  content: "\14b";
+}
+
+.icon-Omacron:before {
+  content: "\14c";
+}
+
+.icon-omacron:before {
+  content: "\14d";
+}
+
+.icon-Obreve:before {
+  content: "\14e";
+}
+
+.icon-obreve:before {
+  content: "\14f";
+}
+
+.icon-Ohungarumlaut:before {
+  content: "\150";
+}
+
+.icon-ohungarumlaut:before {
+  content: "\151";
+}
+
+.icon-OE:before {
+  content: "\152";
+}
+
+.icon-oe:before {
+  content: "\153";
+}
+
+.icon-Racute:before {
+  content: "\154";
+}
+
+.icon-racute:before {
+  content: "\155";
+}
+
+.icon-CapitalLetterRwithce:before {
+  content: "\156";
+}
+
+.icon-SmallLetterRwithcedi:before {
+  content: "\157";
+}
+
+.icon-Rcaron:before {
+  content: "\158";
+}
+
+.icon-rcaron:before {
+  content: "\159";
+}
+
+.icon-Sacute:before {
+  content: "\15a";
+}
+
+.icon-sacute:before {
+  content: "\15b";
+}
+
+.icon-Scircumflex:before {
+  content: "\15c";
+}
+
+.icon-scircumflex:before {
+  content: "\15d";
+}
+
+.icon-Scedilla:before {
+  content: "\15e";
+}
+
+.icon-scedilla:before {
+  content: "\15f";
+}
+
+.icon-Scaron:before {
+  content: "\160";
+}
+
+.icon-scaron:before {
+  content: "\161";
+}
+
+.icon-CapitalLetterTwithce:before {
+  content: "\162";
+}
+
+.icon-SmallLetterTwithcedi:before {
+  content: "\163";
+}
+
+.icon-Tcaron:before {
+  content: "\164";
+}
+
+.icon-tcaron:before {
+  content: "\165";
+}
+
+.icon-Tbar:before {
+  content: "\166";
+}
+
+.icon-tbar:before {
+  content: "\167";
+}
+
+.icon-Utilde:before {
+  content: "\168";
+}
+
+.icon-utilde:before {
+  content: "\169";
+}
+
+.icon-Umacron:before {
+  content: "\16a";
+}
+
+.icon-umacron:before {
+  content: "\16b";
+}
+
+.icon-Ubreve:before {
+  content: "\16c";
+}
+
+.icon-ubreve:before {
+  content: "\16d";
+}
+
+.icon-Uring:before {
+  content: "\16e";
+}
+
+.icon-uring:before {
+  content: "\16f";
+}
+
+.icon-Uhungarumlaut:before {
+  content: "\170";
+}
+
+.icon-uhungarumlaut:before {
+  content: "\171";
+}
+
+.icon-Uogonek:before {
+  content: "\172";
+}
+
+.icon-uogonek:before {
+  content: "\173";
+}
+
+.icon-Wcircumflex:before {
+  content: "\174";
+}
+
+.icon-wcircumflex:before {
+  content: "\175";
+}
+
+.icon-Ycircumflex:before {
+  content: "\176";
+}
+
+.icon-ycircumflex:before {
+  content: "\177";
+}
+
+.icon-Ydieresis:before {
+  content: "\178";
+}
+
+.icon-Zacute:before {
+  content: "\179";
+}
+
+.icon-zacute:before {
+  content: "\17a";
+}
+
+.icon-Zdotaccent:before {
+  content: "\17b";
+}
+
+.icon-zdotaccent:before {
+  content: "\17c";
+}
+
+.icon-Zcaron:before {
+  content: "\17d";
+}
+
+.icon-zcaron:before {
+  content: "\17e";
+}
+
+.icon-longs:before {
+  content: "\17f";
+}
+
+.icon-SmallLetterBwithstro:before {
+  content: "\180";
+}
+
+.icon-CapitalLetterBwithho:before {
+  content: "\181";
+}
+
+.icon-CapitalLetterBwithto:before {
+  content: "\182";
+}
+
+.icon-SmallLetterBwithtopb:before {
+  content: "\183";
+}
+
+.icon-CapitalLetterToneSix:before {
+  content: "\184";
+}
+
+.icon-SmallLetterToneSix:before {
+  content: "\185";
+}
+
+.icon-CapitalLetterOpenO:before {
+  content: "\186";
+}
+
+.icon-CapitalLetterCwithho:before {
+  content: "\187";
+}
+
+.icon-SmallLetterCwithhook:before {
+  content: "\188";
+}
+
+.icon-CapitalLetterAfrican:before {
+  content: "\189";
+}
+
+.icon-CapitalLetterDwithho:before {
+  content: "\18a";
+}
+
+.icon-CapitalLetterDwithto:before {
+  content: "\18b";
+}
+
+.icon-SmallLetterDwithtopb:before {
+  content: "\18c";
+}
+
+.icon-SmallLetterTurnedDel:before {
+  content: "\18d";
+}
+
+.icon-CapitalLetterReverse:before {
+  content: "\18e";
+}
+
+.icon-CapitalLetterSchwa:before {
+  content: "\18f";
+}
+
+.icon-CapitalLetterOpenE:before {
+  content: "\190";
+}
+
+.icon-CapitalLetterFwithho:before {
+  content: "\191";
+}
+
+.icon-florin:before {
+  content: "\192";
+}
+
+.icon-CapitalLetterGwithho:before {
+  content: "\193";
+}
+
+.icon-CapitalLetterGamma:before {
+  content: "\194";
+}
+
+.icon-SmallLetterHV:before {
+  content: "\195";
+}
+
+.icon-CapitalLetterIota:before {
+  content: "\196";
+}
+
+.icon-CapitalLetterIwithst:before {
+  content: "\197";
+}
+
+.icon-CapitalLetterKwithho:before {
+  content: "\198";
+}
+
+.icon-SmallLetterKwithhook:before {
+  content: "\199";
+}
+
+.icon-SmallLetterLwithbar:before {
+  content: "\19a";
+}
+
+.icon-SmallLetterLambdawit:before {
+  content: "\19b";
+}
+
+.icon-CapitalLetterTurnedM:before {
+  content: "\19c";
+}
+
+.icon-CapitalLetterNwithle:before {
+  content: "\19d";
+}
+
+.icon-SmallLetterNwithlong:before {
+  content: "\19e";
+}
+
+.icon-CapitalLetterOwithmi:before {
+  content: "\19f";
+}
+
+.icon-Ohorn:before {
+  content: "\1a0";
+}
+
+.icon-ohorn:before {
+  content: "\1a1";
+}
+
+.icon-CapitalLetterOI(Capi:before {
+  content: "\1a2";
+}
+
+.icon-SmallLetterOI(SmallL:before {
+  content: "\1a3";
+}
+
+.icon-CapitalLetterPwithho:before {
+  content: "\1a4";
+}
+
+.icon-SmallLetterPwithhook:before {
+  content: "\1a5";
+}
+
+.icon-LetterYR:before {
+  content: "\1a6";
+}
+
+.icon-CapitalLetterToneTwo:before {
+  content: "\1a7";
+}
+
+.icon-SmallLetterToneTwo:before {
+  content: "\1a8";
+}
+
+.icon-CapitalLetterEsh:before {
+  content: "\1a9";
+}
+
+.icon-LetterReversedEshLoo:before {
+  content: "\1aa";
+}
+
+.icon-SmallLetterTwithpala:before {
+  content: "\1ab";
+}
+
+.icon-CapitalLetterTwithho:before {
+  content: "\1ac";
+}
+
+.icon-SmallLetterTwithhook:before {
+  content: "\1ad";
+}
+
+.icon-CapitalLetterTwithre:before {
+  content: "\1ae";
+}
+
+.icon-Uhorn:before {
+  content: "\1af";
+}
+
+.icon-uhorn:before {
+  content: "\1b0";
+}
+
+.icon-CapitalLetterUpsilon:before {
+  content: "\1b1";
+}
+
+.icon-CapitalLetterVwithho:before {
+  content: "\1b2";
+}
+
+.icon-CapitalLetterYwithho:before {
+  content: "\1b3";
+}
+
+.icon-SmallLetterYwithhook:before {
+  content: "\1b4";
+}
+
+.icon-CapitalLetterZwithst:before {
+  content: "\1b5";
+}
+
+.icon-SmallLetterZwithstro:before {
+  content: "\1b6";
+}
+
+.icon-CapitalLetterEzh:before {
+  content: "\1b7";
+}
+
+.icon-CapitalLetterEzhreve:before {
+  content: "\1b8";
+}
+
+.icon-SmallLetterEzhrevers:before {
+  content: "\1b9";
+}
+
+.icon-SmallLetterEzhwithta:before {
+  content: "\1ba";
+}
+
+.icon-LetterTwowithstroke:before {
+  content: "\1bb";
+}
+
+.icon-CapitalLetterToneFiv:before {
+  content: "\1bc";
+}
+
+.icon-SmallLetterToneFive:before {
+  content: "\1bd";
+}
+
+.icon-LetterInvertedGlotta:before {
+  content: "\1be";
+}
+
+.icon-LetterWynn:before {
+  content: "\1bf";
+}
+
+.icon-LetterDentalClick:before {
+  content: "\1c0";
+}
+
+.icon-LetterLateralClick:before {
+  content: "\1c1";
+}
+
+.icon-LetterAlveolarClick:before {
+  content: "\1c2";
+}
+
+.icon-LetterRetroflexClick:before {
+  content: "\1c3";
+}
+
+.icon-CapitalLetterDZwithc:before {
+  content: "\1c4";
+}
+
+.icon-CapitalLetterDwithSm:before {
+  content: "\1c5";
+}
+
+.icon-SmallLetterDZwithcar:before {
+  content: "\1c6";
+}
+
+.icon-CapitalLetterLJ:before {
+  content: "\1c7";
+}
+
+.icon-CapitalLetterLwithSm:before {
+  content: "\1c8";
+}
+
+.icon-SmallLetterLJ:before {
+  content: "\1c9";
+}
+
+.icon-CapitalLetterNJ:before {
+  content: "\1ca";
+}
+
+.icon-CapitalLetterNwithSm:before {
+  content: "\1cb";
+}
+
+.icon-SmallLetterNJ:before {
+  content: "\1cc";
+}
+
+.icon-CapitalLetterAwithca:before {
+  content: "\1cd";
+}
+
+.icon-SmallLetterAwithcaro:before {
+  content: "\1ce";
+}
+
+.icon-CapitalLetterIwithca:before {
+  content: "\1cf";
+}
+
+.icon-SmallLetterIwithcaro:before {
+  content: "\1d0";
+}
+
+.icon-CapitalLetterOwithca:before {
+  content: "\1d1";
+}
+
+.icon-SmallLetterOwithcaro:before {
+  content: "\1d2";
+}
+
+.icon-CapitalLetterUwithca:before {
+  content: "\1d3";
+}
+
+.icon-SmallLetterUwithcaro:before {
+  content: "\1d4";
+}
+
+.icon-CapitalLetterUwithdi:before {
+  content: "\1d5";
+}
+
+.icon-SmallLetterUwithdiae:before {
+  content: "\1d6";
+}
+
+.icon-CapitalLetterUwithdi:before {
+  content: "\1d7";
+}
+
+.icon-SmallLetterUwithdiae:before {
+  content: "\1d8";
+}
+
+.icon-CapitalLetterUwithdi:before {
+  content: "\1d9";
+}
+
+.icon-SmallLetterUwithdiae:before {
+  content: "\1da";
+}
+
+.icon-CapitalLetterUwithdi:before {
+  content: "\1db";
+}
+
+.icon-SmallLetterUwithdiae:before {
+  content: "\1dc";
+}
+
+.icon-SmallLetterTurnedE:before {
+  content: "\1dd";
+}
+
+.icon-CapitalLetterAwithdi:before {
+  content: "\1de";
+}
+
+.icon-SmallLetterAwithdiae:before {
+  content: "\1df";
+}
+
+.icon-CapitalLetterAwithdo:before {
+  content: "\1e0";
+}
+
+.icon-SmallLetterAwithdota:before {
+  content: "\1e1";
+}
+
+.icon-CapitalLetterAEwithm:before {
+  content: "\1e2";
+}
+
+.icon-SmallLetterAEwithmac:before {
+  content: "\1e3";
+}
+
+.icon-CapitalLetterGwithst:before {
+  content: "\1e4";
+}
+
+.icon-SmallLetterGwithstro:before {
+  content: "\1e5";
+}
+
+.icon-Gcaron:before {
+  content: "\1e6";
+}
+
+.icon-gcaron:before {
+  content: "\1e7";
+}
+
+.icon-CapitalLetterKwithca:before {
+  content: "\1e8";
+}
+
+.icon-SmallLetterKwithcaro:before {
+  content: "\1e9";
+}
+
+.icon-CapitalLetterOwithog:before {
+  content: "\1ea";
+}
+
+.icon-SmallLetterOwithogon:before {
+  content: "\1eb";
+}
+
+.icon-CapitalLetterOwithog:before {
+  content: "\1ec";
+}
+
+.icon-SmallLetterOwithogon:before {
+  content: "\1ed";
+}
+
+.icon-CapitalLetterEzhwith:before {
+  content: "\1ee";
+}
+
+.icon-SmallLetterEzhwithca:before {
+  content: "\1ef";
+}
+
+.icon-SmallLetterJwithcaro:before {
+  content: "\1f0";
+}
+
+.icon-CapitalLetterDZ:before {
+  content: "\1f1";
+}
+
+.icon-CapitalLetterDwithSm:before {
+  content: "\1f2";
+}
+
+.icon-SmallLetterDZ:before {
+  content: "\1f3";
+}
+
+.icon-CapitalLetterGwithac:before {
+  content: "\1f4";
+}
+
+.icon-SmallLetterGwithacut:before {
+  content: "\1f5";
+}
+
+.icon-CapitalLetterHwair:before {
+  content: "\1f6";
+}
+
+.icon-CapitalLetterWynn:before {
+  content: "\1f7";
+}
+
+.icon-CapitalLetterNwithgr:before {
+  content: "\1f8";
+}
+
+.icon-SmallLetterNwithgrav:before {
+  content: "\1f9";
+}
+
+.icon-Aringacute:before {
+  content: "\1fa";
+}
+
+.icon-aringacute:before {
+  content: "\1fb";
+}
+
+.icon-AEacute:before {
+  content: "\1fc";
+}
+
+.icon-aeacute:before {
+  content: "\1fd";
+}
+
+.icon-Oslashacute:before {
+  content: "\1fe";
+}
+
+.icon-oslashacute:before {
+  content: "\1ff";
+}
+
+.icon-CapitalLetterAwithdo:before {
+  content: "\200";
+}
+
+.icon-SmallLetterAwithdoub:before {
+  content: "\201";
+}
+
+.icon-CapitalLetterAwithin:before {
+  content: "\202";
+}
+
+.icon-SmallLetterAwithinve:before {
+  content: "\203";
+}
+
+.icon-CapitalLetterEwithdo:before {
+  content: "\204";
+}
+
+.icon-SmallLetterEwithdoub:before {
+  content: "\205";
+}
+
+.icon-CapitalLetterEwithin:before {
+  content: "\206";
+}
+
+.icon-SmallLetterEwithinve:before {
+  content: "\207";
+}
+
+.icon-CapitalLetterIwithdo:before {
+  content: "\208";
+}
+
+.icon-SmallLetterIwithdoub:before {
+  content: "\209";
+}
+
+.icon-CapitalLetterIwithin:before {
+  content: "\20a";
+}
+
+.icon-SmallLetterIwithinve:before {
+  content: "\20b";
+}
+
+.icon-CapitalLetterOwithdo:before {
+  content: "\20c";
+}
+
+.icon-SmallLetterOwithdoub:before {
+  content: "\20d";
+}
+
+.icon-CapitalLetterOwithin:before {
+  content: "\20e";
+}
+
+.icon-SmallLetterOwithinve:before {
+  content: "\20f";
+}
+
+.icon-CapitalLetterRwithdo:before {
+  content: "\210";
+}
+
+.icon-SmallLetterRwithdoub:before {
+  content: "\211";
+}
+
+.icon-CapitalLetterRwithin:before {
+  content: "\212";
+}
+
+.icon-SmallLetterRwithinve:before {
+  content: "\213";
+}
+
+.icon-CapitalLetterUwithdo:before {
+  content: "\214";
+}
+
+.icon-SmallLetterUwithdoub:before {
+  content: "\215";
+}
+
+.icon-CapitalLetterUwithin:before {
+  content: "\216";
+}
+
+.icon-SmallLetterUwithinve:before {
+  content: "\217";
+}
+
+.icon-CapitalLetterSwithco:before {
+  content: "\218";
+}
+
+.icon-SmallLetterSwithcomm:before {
+  content: "\219";
+}
+
+.icon-CapitalLetterTwithco:before {
+  content: "\21a";
+}
+
+.icon-SmallLetterTwithcomm:before {
+  content: "\21b";
+}
+
+.icon-CapitalLetterYogh:before {
+  content: "\21c";
+}
+
+.icon-SmallLetterYogh:before {
+  content: "\21d";
+}
+
+.icon-CapitalLetterHwithca:before {
+  content: "\21e";
+}
+
+.icon-SmallLetterHwithcaro:before {
+  content: "\21f";
+}
+
+.icon-CapitalLetterNwithlo:before {
+  content: "\220";
+}
+
+.icon-SmallLetterDwithcurl:before {
+  content: "\221";
+}
+
+.icon-CapitalLetterOU:before {
+  content: "\222";
+}
+
+.icon-SmallLetterOU:before {
+  content: "\223";
+}
+
+.icon-CapitalLetterZwithho:before {
+  content: "\224";
+}
+
+.icon-SmallLetterZwithhook:before {
+  content: "\225";
+}
+
+.icon-CapitalLetterAwithdo:before {
+  content: "\226";
+}
+
+.icon-SmallLetterAwithdota:before {
+  content: "\227";
+}
+
+.icon-CapitalLetterEwithce:before {
+  content: "\228";
+}
+
+.icon-SmallLetterEwithcedi:before {
+  content: "\229";
+}
+
+.icon-CapitalLetterOwithdi:before {
+  content: "\22a";
+}
+
+.icon-SmallLetterOwithdiae:before {
+  content: "\22b";
+}
+
+.icon-CapitalLetterOwithti:before {
+  content: "\22c";
+}
+
+.icon-SmallLetterOwithtild:before {
+  content: "\22d";
+}
+
+.icon-CapitalLetterOwithdo:before {
+  content: "\22e";
+}
+
+.icon-SmallLetterOwithdota:before {
+  content: "\22f";
+}
+
+.icon-CapitalLetterOwithdo:before {
+  content: "\230";
+}
+
+.icon-SmallLetterOwithdota:before {
+  content: "\231";
+}
+
+.icon-CapitalLetterYwithma:before {
+  content: "\232";
+}
+
+.icon-SmallLetterYwithmacr:before {
+  content: "\233";
+}
+
+.icon-SmallLetterLwithcurl:before {
+  content: "\234";
+}
+
+.icon-SmallLetterNwithcurl:before {
+  content: "\235";
+}
+
+.icon-SmallLetterTwithcurl:before {
+  content: "\236";
+}
+
+.icon-SmallLetterDotlessJ:before {
+  content: "\237";
+}
+
+.icon-SmallLetterDBDigraph:before {
+  content: "\238";
+}
+
+.icon-SmallLetterQPDigraph:before {
+  content: "\239";
+}
+
+.icon-CapitalLetterAwithst:before {
+  content: "\23a";
+}
+
+.icon-CapitalLetterCwithst:before {
+  content: "\23b";
+}
+
+.icon-SmallLetterCwithstro:before {
+  content: "\23c";
+}
+
+.icon-CapitalLetterLwithba:before {
+  content: "\23d";
+}
+
+.icon-CapitalLetterTwithdi:before {
+  content: "\23e";
+}
+
+.icon-SmallLetterSwithswas:before {
+  content: "\23f";
+}
+
+.icon-SmallLetterZwithswas:before {
+  content: "\240";
+}
+
+.icon-CapitalLetterGlottal:before {
+  content: "\241";
+}
+
+.icon-SmallLetterGlottalSt:before {
+  content: "\242";
+}
+
+.icon-CapitalLetterBwithst:before {
+  content: "\243";
+}
+
+.icon-CapitalLetterUbar:before {
+  content: "\244";
+}
+
+.icon-CapitalLetterTurnedV:before {
+  content: "\245";
+}
+
+.icon-CapitalLetterEwithst:before {
+  content: "\246";
+}
+
+.icon-SmallLetterEwithstro:before {
+  content: "\247";
+}
+
+.icon-CapitalLetterJwithst:before {
+  content: "\248";
+}
+
+.icon-SmallLetterJwithstro:before {
+  content: "\249";
+}
+
+.icon-CapitalLetterQwithho:before {
+  content: "\24a";
+}
+
+.icon-SmallLetterQwithhook:before {
+  content: "\24b";
+}
+
+.icon-CapitalLetterRwithst:before {
+  content: "\24c";
+}
+
+.icon-SmallLetterRwithstro:before {
+  content: "\24d";
+}
+
+.icon-CapitalLetterYwithst:before {
+  content: "\24e";
+}
+
+.icon-SmallLetterYwithstro:before {
+  content: "\24f";
+}
+
+.icon-SMALLLETTERTURNEDA:before {
+  content: "\250";
+}
+
+.icon-SMALLLETTERALPHA:before {
+  content: "\251";
+}
+
+.icon-SMALLLETTERTURNEDALP:before {
+  content: "\252";
+}
+
+.icon-SMALLLETTERBWITHHOOK:before {
+  content: "\253";
+}
+
+.icon-SMALLLETTEROPENO:before {
+  content: "\254";
+}
+
+.icon-SMALLLETTERCWITHCURL:before {
+  content: "\255";
+}
+
+.icon-SMALLLETTERDWITHTAIL:before {
+  content: "\256";
+}
+
+.icon-SMALLLETTERDWITHHOOK:before {
+  content: "\257";
+}
+
+.icon-SMALLLETTERREVERSEDE:before {
+  content: "\258";
+}
+
+.icon-SMALLLETTERSCHWA:before {
+  content: "\259";
+}
+
+.icon-SMALLLETTERSCHWAWITH:before {
+  content: "\25a";
+}
+
+.icon-SMALLLETTEROPENE:before {
+  content: "\25b";
+}
+
+.icon-SMALLLETTERREVERSEDO:before {
+  content: "\25c";
+}
+
+.icon-SMALLLETTERREVERSEDO:before {
+  content: "\25d";
+}
+
+.icon-SMALLLETTERCLOSEDREV:before {
+  content: "\25e";
+}
+
+.icon-SMALLLETTERDOTLESSJW:before {
+  content: "\25f";
+}
+
+.icon-SMALLLETTERGWITHHOOK:before {
+  content: "\260";
+}
+
+.icon-SMALLLETTERSCRIPTG:before {
+  content: "\261";
+}
+
+.icon-LETTERSMALLCAPITALG:before {
+  content: "\262";
+}
+
+.icon-SMALLLETTERGAMMA:before {
+  content: "\263";
+}
+
+.icon-SMALLLETTERRAMSHORN:before {
+  content: "\264";
+}
+
+.icon-SMALLLETTERTURNEDH:before {
+  content: "\265";
+}
+
+.icon-SMALLLETTERHWITHHOOK:before {
+  content: "\266";
+}
+
+.icon-SMALLLETTERHENGWITHH:before {
+  content: "\267";
+}
+
+.icon-SMALLLETTERIWITHSTRO:before {
+  content: "\268";
+}
+
+.icon-SMALLLETTERIOTA:before {
+  content: "\269";
+}
+
+.icon-LETTERSMALLCAPITALI:before {
+  content: "\26a";
+}
+
+.icon-SMALLLETTERLWITHMIDD:before {
+  content: "\26b";
+}
+
+.icon-SMALLLETTERLWITHBELT:before {
+  content: "\26c";
+}
+
+.icon-SMALLLETTERLWITHRETR:before {
+  content: "\26d";
+}
+
+.icon-SMALLLETTERLEZH:before {
+  content: "\26e";
+}
+
+.icon-SMALLLETTERTURNEDM:before {
+  content: "\26f";
+}
+
+.icon-SMALLLETTERTURNEDMWI:before {
+  content: "\270";
+}
+
+.icon-SMALLLETTERMWITHHOOK:before {
+  content: "\271";
+}
+
+.icon-SMALLLETTERNWITHLEFT:before {
+  content: "\272";
+}
+
+.icon-SMALLLETTERNWITHRETR:before {
+  content: "\273";
+}
+
+.icon-LETTERSMALLCAPITALN:before {
+  content: "\274";
+}
+
+.icon-SMALLLETTERBARREDO:before {
+  content: "\275";
+}
+
+.icon-LETTERSMALLCAPITALOE:before {
+  content: "\276";
+}
+
+.icon-SMALLLETTERCLOSEDOME:before {
+  content: "\277";
+}
+
+.icon-SMALLLETTERPHI:before {
+  content: "\278";
+}
+
+.icon-SMALLLETTERTURNEDR:before {
+  content: "\279";
+}
+
+.icon-SMALLLETTERTURNEDRWI:before {
+  content: "\27a";
+}
+
+.icon-SMALLLETTERTURNEDRWI:before {
+  content: "\27b";
+}
+
+.icon-SMALLLETTERRWITHLONG:before {
+  content: "\27c";
+}
+
+.icon-SMALLLETTERRWITHTAIL:before {
+  content: "\27d";
+}
+
+.icon-SMALLLETTERRWITHFISH:before {
+  content: "\27e";
+}
+
+.icon-SMALLLETTERREVERSEDR:before {
+  content: "\27f";
+}
+
+.icon-LETTERSMALLCAPITALR:before {
+  content: "\280";
+}
+
+.icon-LETTERSMALLCAPITALIN:before {
+  content: "\281";
+}
+
+.icon-SMALLLETTERSWITHHOOK:before {
+  content: "\282";
+}
+
+.icon-SMALLLETTERESH:before {
+  content: "\283";
+}
+
+.icon-SMALLLETTERDOTLESSJW:before {
+  content: "\284";
+}
+
+.icon-SMALLLETTERSQUATREVE:before {
+  content: "\285";
+}
+
+.icon-SMALLLETTERESHWITHCU:before {
+  content: "\286";
+}
+
+.icon-SMALLLETTERTURNEDT:before {
+  content: "\287";
+}
+
+.icon-SMALLLETTERTWITHRETR:before {
+  content: "\288";
+}
+
+.icon-SMALLLETTERUBAR:before {
+  content: "\289";
+}
+
+.icon-SMALLLETTERUPSILON:before {
+  content: "\28a";
+}
+
+.icon-SMALLLETTERVWITHHOOK:before {
+  content: "\28b";
+}
+
+.icon-SMALLLETTERTURNEDV:before {
+  content: "\28c";
+}
+
+.icon-SMALLLETTERTURNEDW:before {
+  content: "\28d";
+}
+
+.icon-SMALLLETTERTURNEDY:before {
+  content: "\28e";
+}
+
+.icon-LETTERSMALLCAPITALY:before {
+  content: "\28f";
+}
+
+.icon-SMALLLETTERZWITHRETR:before {
+  content: "\290";
+}
+
+.icon-SMALLLETTERZWITHCURL:before {
+  content: "\291";
+}
+
+.icon-SMALLLETTEREZH:before {
+  content: "\292";
+}
+
+.icon-SMALLLETTEREZHWITHCU:before {
+  content: "\293";
+}
+
+.icon-LETTERGLOTTALSTOP:before {
+  content: "\294";
+}
+
+.icon-LETTERPHARYNGEALVOIC:before {
+  content: "\295";
+}
+
+.icon-LETTERINVERTEDGLOTTA:before {
+  content: "\296";
+}
+
+.icon-LETTERSTRETCHEDC:before {
+  content: "\297";
+}
+
+.icon-LETTERBILABIALCLICK:before {
+  content: "\298";
+}
+
+.icon-LETTERSMALLCAPITALB:before {
+  content: "\299";
+}
+
+.icon-SMALLLETTERCLOSEDOPE:before {
+  content: "\29a";
+}
+
+.icon-LETTERSMALLCAPITALGW:before {
+  content: "\29b";
+}
+
+.icon-LETTERSMALLCAPITALH:before {
+  content: "\29c";
+}
+
+.icon-SMALLLETTERJWITHCROS:before {
+  content: "\29d";
+}
+
+.icon-SMALLLETTERTURNEDK:before {
+  content: "\29e";
+}
+
+.icon-LETTERSMALLCAPITALL:before {
+  content: "\29f";
+}
+
+.icon-SMALLLETTERQWITHHOOK:before {
+  content: "\2a0";
+}
+
+.icon-LETTERGLOTTALSTOPWIT:before {
+  content: "\2a1";
+}
+
+.icon-LETTERREVERSEDGLOTTA:before {
+  content: "\2a2";
+}
+
+.icon-SMALLLETTERDZDIGRAPH:before {
+  content: "\2a3";
+}
+
+.icon-SMALLLETTERDEZHDIGRA:before {
+  content: "\2a4";
+}
+
+.icon-SMALLLETTERDZDIGRAPH:before {
+  content: "\2a5";
+}
+
+.icon-SMALLLETTERTSDIGRAPH:before {
+  content: "\2a6";
+}
+
+.icon-SMALLLETTERTESHDIGRA:before {
+  content: "\2a7";
+}
+
+.icon-SMALLLETTERTCDIGRAPH:before {
+  content: "\2a8";
+}
+
+.icon-SMALLLETTERFENGDIGRA:before {
+  content: "\2a9";
+}
+
+.icon-SMALLLETTERLSDIGRAPH:before {
+  content: "\2aa";
+}
+
+.icon-SMALLLETTERLZDIGRAPH:before {
+  content: "\2ab";
+}
+
+.icon-LETTERBILABIALPERCUS:before {
+  content: "\2ac";
+}
+
+.icon-LETTERBIDENTALPERCUS:before {
+  content: "\2ad";
+}
+
+.icon-SMALLLETTERTURNEDHWI:before {
+  content: "\2ae";
+}
+
+.icon-SMALLLETTERTURNEDHWI:before {
+  content: "\2af";
+}
+
+.icon-MODIFIERLETTERSMALLH:before {
+  content: "\2b0";
+}
+
+.icon-MODIFIERLETTERSMALLH:before {
+  content: "\2b1";
+}
+
+.icon-MODIFIERLETTERSMALLJ:before {
+  content: "\2b2";
+}
+
+.icon-MODIFIERLETTERSMALLR:before {
+  content: "\2b3";
+}
+
+.icon-MODIFIERLETTERSMALLT:before {
+  content: "\2b4";
+}
+
+.icon-MODIFIERLETTERSMALLT:before {
+  content: "\2b5";
+}
+
+.icon-MODIFIERLETTERSMALLC:before {
+  content: "\2b6";
+}
+
+.icon-MODIFIERLETTERSMALLW:before {
+  content: "\2b7";
+}
+
+.icon-MODIFIERLETTERSMALLY:before {
+  content: "\2b8";
+}
+
+.icon-MODIFIERLETTERPRIME:before {
+  content: "\2b9";
+}
+
+.icon-MODIFIERLETTERDOUBLE:before {
+  content: "\2ba";
+}
+
+.icon-MODIFIERLETTERTURNED:before {
+  content: "\2bb";
+}
+
+.icon-MODIFIERLETTERAPOSTR:before {
+  content: "\2bc";
+}
+
+.icon-MODIFIERLETTERREVERS:before {
+  content: "\2bd";
+}
+
+.icon-MODIFIERLETTERRIGHTH:before {
+  content: "\2be";
+}
+
+.icon-MODIFIERLETTERLEFTHA:before {
+  content: "\2bf";
+}
+
+.icon-MODIFIERLETTERGLOTTA:before {
+  content: "\2c0";
+}
+
+.icon-MODIFIERLETTERREVERS:before {
+  content: "\2c1";
+}
+
+.icon-MODIFIERLETTERLEFTAR:before {
+  content: "\2c2";
+}
+
+.icon-MODIFIERLETTERRIGHTA:before {
+  content: "\2c3";
+}
+
+.icon-MODIFIERLETTERUPARRO:before {
+  content: "\2c4";
+}
+
+.icon-MODIFIERLETTERDOWNAR:before {
+  content: "\2c5";
+}
+
+.icon-circumflex:before {
+  content: "\2c6";
+}
+
+.icon-caron:before {
+  content: "\2c7";
+}
+
+.icon-MODIFIERLETTERVERTIC:before {
+  content: "\2c8";
+}
+
+.icon-MODIFIERLETTERMACRON:before {
+  content: "\2c9";
+}
+
+.icon-MODIFIERLETTERACUTEA:before {
+  content: "\2ca";
+}
+
+.icon-MODIFIERLETTERGRAVEA:before {
+  content: "\2cb";
+}
+
+.icon-MODIFIERLETTERLOWVER:before {
+  content: "\2cc";
+}
+
+.icon-MODIFIERLETTERLOWMAC:before {
+  content: "\2cd";
+}
+
+.icon-MODIFIERLETTERLOWGRA:before {
+  content: "\2ce";
+}
+
+.icon-MODIFIERLETTERLOWACU:before {
+  content: "\2cf";
+}
+
+.icon-MODIFIERLETTERTRIANG:before {
+  content: "\2d0";
+}
+
+.icon-MODIFIERLETTERHALFTR:before {
+  content: "\2d1";
+}
+
+.icon-MODIFIERLETTERCENTRE:before {
+  content: "\2d2";
+}
+
+.icon-MODIFIERLETTERCENTRE:before {
+  content: "\2d3";
+}
+
+.icon-MODIFIERLETTERUPTACK:before {
+  content: "\2d4";
+}
+
+.icon-MODIFIERLETTERDOWNTA:before {
+  content: "\2d5";
+}
+
+.icon-MODIFIERLETTERPLUSSI:before {
+  content: "\2d6";
+}
+
+.icon-MODIFIERLETTERMINUSS:before {
+  content: "\2d7";
+}
+
+.icon-breve:before {
+  content: "\2d8";
+}
+
+.icon-dotaccent:before {
+  content: "\2d9";
+}
+
+.icon-ring:before {
+  content: "\2da";
+}
+
+.icon-ogonek:before {
+  content: "\2db";
+}
+
+.icon-tilde:before {
+  content: "\2dc";
+}
+
+.icon-hungarumlaut:before {
+  content: "\2dd";
+}
+
+.icon-MODIFIERLETTERRHOTIC:before {
+  content: "\2de";
+}
+
+.icon-MODIFIERLETTERCROSSA:before {
+  content: "\2df";
+}
+
+.icon-MODIFIERLETTERSMALLG:before {
+  content: "\2e0";
+}
+
+.icon-MODIFIERLETTERSMALLL:before {
+  content: "\2e1";
+}
+
+.icon-MODIFIERLETTERSMALLS:before {
+  content: "\2e2";
+}
+
+.icon-MODIFIERLETTERSMALLX:before {
+  content: "\2e3";
+}
+
+.icon-MODIFIERLETTERSMALLR:before {
+  content: "\2e4";
+}
+
+.icon-MODIFIERLETTEREXTRA-:before {
+  content: "\2e5";
+}
+
+.icon-MODIFIERLETTERHIGHTO:before {
+  content: "\2e6";
+}
+
+.icon-MODIFIERLETTERMIDTON:before {
+  content: "\2e7";
+}
+
+.icon-MODIFIERLETTERLOWTON:before {
+  content: "\2e8";
+}
+
+.icon-MODIFIERLETTEREXTRA-:before {
+  content: "\2e9";
+}
+
+.icon-MODIFIERLETTERYINDEP:before {
+  content: "\2ea";
+}
+
+.icon-MODIFIERLETTERYANGDE:before {
+  content: "\2eb";
+}
+
+.icon-MODIFIERLETTERVOICIN:before {
+  content: "\2ec";
+}
+
+.icon-MODIFIERLETTERUNASPI:before {
+  content: "\2ed";
+}
+
+.icon-MODIFIERLETTERDOUBLE:before {
+  content: "\2ee";
+}
+
+.icon-MODIFIERLETTERLOWDOW:before {
+  content: "\2ef";
+}
+
+.icon-MODIFIERLETTERLOWUPA:before {
+  content: "\2f0";
+}
+
+.icon-MODIFIERLETTERLOWLEF:before {
+  content: "\2f1";
+}
+
+.icon-MODIFIERLETTERLOWRIG:before {
+  content: "\2f2";
+}
+
+.icon-MODIFIERLETTERLOWRIN:before {
+  content: "\2f3";
+}
+
+.icon-MODIFIERLETTERMIDDLE:before {
+  content: "\2f4";
+}
+
+.icon-MODIFIERLETTERMIDDLE:before {
+  content: "\2f5";
+}
+
+.icon-MODIFIERLETTERMIDDLE:before {
+  content: "\2f6";
+}
+
+.icon-MODIFIERLETTERLOWTIL:before {
+  content: "\2f7";
+}
+
+.icon-MODIFIERLETTERRAISED:before {
+  content: "\2f8";
+}
+
+.icon-MODIFIERLETTERBEGINH:before {
+  content: "\2f9";
+}
+
+.icon-MODIFIERLETTERENDHIG:before {
+  content: "\2fa";
+}
+
+.icon-MODIFIERLETTERBEGINL:before {
+  content: "\2fb";
+}
+
+.icon-MODIFIERLETTERENDLOW:before {
+  content: "\2fc";
+}
+
+.icon-MODIFIERLETTERSHELF:before {
+  content: "\2fd";
+}
+
+.icon-MODIFIERLETTEROPENSH:before {
+  content: "\2fe";
+}
+
+.icon-MODIFIERLETTERLOWLEF:before {
+  content: "\2ff";
+}
+
+.icon-gravecomb:before {
+  content: "\300";
+}
+
+.icon-acutecomb:before {
+  content: "\301";
+}
+
+.icon-COMBININGCIRCUMFLEXA:before {
+  content: "\302";
+}
+
+.icon-tildecomb:before {
+  content: "\303";
+}
+
+.icon-COMBININGMACRON:before {
+  content: "\304";
+}
+
+.icon-COMBININGOVERLINE:before {
+  content: "\305";
+}
+
+.icon-COMBININGBREVE:before {
+  content: "\306";
+}
+
+.icon-COMBININGDOTABOVE:before {
+  content: "\307";
+}
+
+.icon-COMBININGDIAERESIS:before {
+  content: "\308";
+}
+
+.icon-hookabovecomb:before {
+  content: "\309";
+}
+
+.icon-COMBININGRINGABOVE:before {
+  content: "\30a";
+}
+
+.icon-COMBININGDOUBLEACUTE:before {
+  content: "\30b";
+}
+
+.icon-COMBININGCARON:before {
+  content: "\30c";
+}
+
+.icon-COMBININGVERTICALLIN:before {
+  content: "\30d";
+}
+
+.icon-COMBININGDOUBLEVERTI:before {
+  content: "\30e";
+}
+
+.icon-COMBININGDOUBLEGRAVE:before {
+  content: "\30f";
+}
+
+.icon-COMBININGCANDRABINDU:before {
+  content: "\310";
+}
+
+.icon-COMBININGINVERTEDBRE:before {
+  content: "\311";
+}
+
+.icon-COMBININGTURNEDCOMMA:before {
+  content: "\312";
+}
+
+.icon-COMBININGCOMMAABOVE:before {
+  content: "\313";
+}
+
+.icon-COMBININGREVERSEDCOM:before {
+  content: "\314";
+}
+
+.icon-COMBININGCOMMAABOVER:before {
+  content: "\315";
+}
+
+.icon-COMBININGGRAVEACCENT:before {
+  content: "\316";
+}
+
+.icon-COMBININGACUTEACCENT:before {
+  content: "\317";
+}
+
+.icon-COMBININGLEFTTACKBEL:before {
+  content: "\318";
+}
+
+.icon-COMBININGRIGHTTACKBE:before {
+  content: "\319";
+}
+
+.icon-COMBININGLEFTANGLEAB:before {
+  content: "\31a";
+}
+
+.icon-COMBININGHORN:before {
+  content: "\31b";
+}
+
+.icon-COMBININGLEFTHALFRIN:before {
+  content: "\31c";
+}
+
+.icon-COMBININGUPTACKBELOW:before {
+  content: "\31d";
+}
+
+.icon-COMBININGDOWNTACKBEL:before {
+  content: "\31e";
+}
+
+.icon-COMBININGPLUSSIGNBEL:before {
+  content: "\31f";
+}
+
+.icon-COMBININGMINUSSIGNBE:before {
+  content: "\320";
+}
+
+.icon-COMBININGPALATALIZED:before {
+  content: "\321";
+}
+
+.icon-COMBININGRETROFLEXHO:before {
+  content: "\322";
+}
+
+.icon-dotbelowcomb:before {
+  content: "\323";
+}
+
+.icon-COMBININGDIAERESISBE:before {
+  content: "\324";
+}
+
+.icon-COMBININGRINGBELOW:before {
+  content: "\325";
+}
+
+.icon-COMBININGCOMMABELOW:before {
+  content: "\326";
+}
+
+.icon-COMBININGCEDILLA:before {
+  content: "\327";
+}
+
+.icon-COMBININGOGONEK:before {
+  content: "\328";
+}
+
+.icon-COMBININGVERTICALLIN:before {
+  content: "\329";
+}
+
+.icon-COMBININGBRIDGEBELOW:before {
+  content: "\32a";
+}
+
+.icon-COMBININGINVERTEDDOU:before {
+  content: "\32b";
+}
+
+.icon-COMBININGCARONBELOW:before {
+  content: "\32c";
+}
+
+.icon-COMBININGCIRCUMFLEXA:before {
+  content: "\32d";
+}
+
+.icon-COMBININGBREVEBELOW:before {
+  content: "\32e";
+}
+
+.icon-COMBININGINVERTEDBRE:before {
+  content: "\32f";
+}
+
+.icon-COMBININGTILDEBELOW:before {
+  content: "\330";
+}
+
+.icon-COMBININGMACRONBELOW:before {
+  content: "\331";
+}
+
+.icon-COMBININGLOWLINE:before {
+  content: "\332";
+}
+
+.icon-COMBININGDOUBLELOWLI:before {
+  content: "\333";
+}
+
+.icon-COMBININGTILDEOVERLA:before {
+  content: "\334";
+}
+
+.icon-COMBININGSHORTSTROKE:before {
+  content: "\335";
+}
+
+.icon-COMBININGLONGSTROKEO:before {
+  content: "\336";
+}
+
+.icon-COMBININGSHORTSOLIDU:before {
+  content: "\337";
+}
+
+.icon-COMBININGLONGSOLIDUS:before {
+  content: "\338";
+}
+
+.icon-COMBININGRIGHTHALFRI:before {
+  content: "\339";
+}
+
+.icon-COMBININGINVERTEDBRI:before {
+  content: "\33a";
+}
+
+.icon-COMBININGSQUAREBELOW:before {
+  content: "\33b";
+}
+
+.icon-COMBININGSEAGULLBELO:before {
+  content: "\33c";
+}
+
+.icon-COMBININGXABOVE:before {
+  content: "\33d";
+}
+
+.icon-COMBININGVERTICALTIL:before {
+  content: "\33e";
+}
+
+.icon-COMBININGDOUBLEOVERL:before {
+  content: "\33f";
+}
+
+.icon-COMBININGGRAVETONEMA:before {
+  content: "\340";
+}
+
+.icon-COMBININGACUTETONEMA:before {
+  content: "\341";
+}
+
+.icon-COMBININGGREEKPERISP:before {
+  content: "\342";
+}
+
+.icon-COMBININGGREEKKORONI:before {
+  content: "\343";
+}
+
+.icon-COMBININGGREEKDIALYT:before {
+  content: "\344";
+}
+
+.icon-COMBININGGREEKYPOGEG:before {
+  content: "\345";
+}
+
+.icon-COMBININGBRIDGEABOVE:before {
+  content: "\346";
+}
+
+.icon-COMBININGEQUALSSIGNB:before {
+  content: "\347";
+}
+
+.icon-COMBININGDOUBLEVERTI:before {
+  content: "\348";
+}
+
+.icon-COMBININGLEFTANGLEBE:before {
+  content: "\349";
+}
+
+.icon-COMBININGNOTTILDEABO:before {
+  content: "\34a";
+}
+
+.icon-COMBININGHOMOTHETICA:before {
+  content: "\34b";
+}
+
+.icon-COMBININGALMOSTEQUAL:before {
+  content: "\34c";
+}
+
+.icon-COMBININGLEFTRIGHTAR:before {
+  content: "\34d";
+}
+
+.icon-COMBININGUPWARDSARRO:before {
+  content: "\34e";
+}
+
+.icon-COMBININGRIGHTARROWH:before {
+  content: "\350";
+}
+
+.icon-COMBININGLEFTHALFRIN:before {
+  content: "\351";
+}
+
+.icon-COMBININGFERMATA:before {
+  content: "\352";
+}
+
+.icon-COMBININGXBELOW:before {
+  content: "\353";
+}
+
+.icon-COMBININGLEFTARROWHE:before {
+  content: "\354";
+}
+
+.icon-COMBININGRIGHTARROWH:before {
+  content: "\355";
+}
+
+.icon-COMBININGRIGHTARROWH:before {
+  content: "\356";
+}
+
+.icon-COMBININGRIGHTHALFRI:before {
+  content: "\357";
+}
+
+.icon-COMBININGDOTABOVERIG:before {
+  content: "\358";
+}
+
+.icon-COMBININGASTERISKBEL:before {
+  content: "\359";
+}
+
+.icon-COMBININGDOUBLERINGB:before {
+  content: "\35a";
+}
+
+.icon-COMBININGZIGZAGABOVE:before {
+  content: "\35b";
+}
+
+.icon-COMBININGDOUBLEBREVE:before {
+  content: "\35c";
+}
+
+.icon-COMBININGDOUBLEBREVE:before {
+  content: "\35d";
+}
+
+.icon-COMBININGDOUBLEMACRO:before {
+  content: "\35e";
+}
+
+.icon-COMBININGDOUBLEMACRO:before {
+  content: "\35f";
+}
+
+.icon-COMBININGDOUBLETILDE:before {
+  content: "\360";
+}
+
+.icon-COMBININGDOUBLEINVER:before {
+  content: "\361";
+}
+
+.icon-COMBININGDOUBLERIGHT:before {
+  content: "\362";
+}
+
+.icon-pi:before {
+  content: "\3c0";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\400";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\401";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\402";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\403";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\404";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\405";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\406";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\407";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\408";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\409";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\40a";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\40b";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\40c";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\40d";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\40e";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\40f";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\410";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\411";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\412";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\413";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\414";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\415";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\416";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\417";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\418";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\419";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\41a";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\41b";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\41c";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\41d";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\41e";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\41f";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\420";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\421";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\422";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\423";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\424";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\425";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\426";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\427";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\428";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\429";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\42a";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\42b";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\42c";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\42d";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\42e";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\42f";
+}
+
+.icon-CYRILLICSMALLLETTERA:before {
+  content: "\430";
+}
+
+.icon-CYRILLICSMALLLETTERB:before {
+  content: "\431";
+}
+
+.icon-CYRILLICSMALLLETTERV:before {
+  content: "\432";
+}
+
+.icon-CYRILLICSMALLLETTERG:before {
+  content: "\433";
+}
+
+.icon-CYRILLICSMALLLETTERD:before {
+  content: "\434";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\435";
+}
+
+.icon-CYRILLICSMALLLETTERZ:before {
+  content: "\436";
+}
+
+.icon-CYRILLICSMALLLETTERZ:before {
+  content: "\437";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\438";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\439";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\43a";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\43b";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\43c";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\43d";
+}
+
+.icon-CYRILLICSMALLLETTERO:before {
+  content: "\43e";
+}
+
+.icon-CYRILLICSMALLLETTERP:before {
+  content: "\43f";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\440";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\441";
+}
+
+.icon-CYRILLICSMALLLETTERT:before {
+  content: "\442";
+}
+
+.icon-CYRILLICSMALLLETTERU:before {
+  content: "\443";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\444";
+}
+
+.icon-CYRILLICSMALLLETTERH:before {
+  content: "\445";
+}
+
+.icon-CYRILLICSMALLLETTERT:before {
+  content: "\446";
+}
+
+.icon-CYRILLICSMALLLETTERC:before {
+  content: "\447";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\448";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\449";
+}
+
+.icon-CYRILLICSMALLLETTERH:before {
+  content: "\44a";
+}
+
+.icon-CYRILLICSMALLLETTERY:before {
+  content: "\44b";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\44c";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\44d";
+}
+
+.icon-CYRILLICSMALLLETTERY:before {
+  content: "\44e";
+}
+
+.icon-CYRILLICSMALLLETTERY:before {
+  content: "\44f";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\450";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\451";
+}
+
+.icon-CYRILLICSMALLLETTERD:before {
+  content: "\452";
+}
+
+.icon-CYRILLICSMALLLETTERG:before {
+  content: "\453";
+}
+
+.icon-CYRILLICSMALLLETTERU:before {
+  content: "\454";
+}
+
+.icon-CYRILLICSMALLLETTERD:before {
+  content: "\455";
+}
+
+.icon-CYRILLICSMALLLETTERB:before {
+  content: "\456";
+}
+
+.icon-CYRILLICSMALLLETTERY:before {
+  content: "\457";
+}
+
+.icon-CYRILLICSMALLLETTERJ:before {
+  content: "\458";
+}
+
+.icon-CYRILLICSMALLLETTERL:before {
+  content: "\459";
+}
+
+.icon-CYRILLICSMALLLETTERN:before {
+  content: "\45a";
+}
+
+.icon-CYRILLICSMALLLETTERT:before {
+  content: "\45b";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\45c";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\45d";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\45e";
+}
+
+.icon-CYRILLICSMALLLETTERD:before {
+  content: "\45f";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\460";
+}
+
+.icon-CYRILLICSMALLLETTERO:before {
+  content: "\461";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\462";
+}
+
+.icon-CYRILLICSMALLLETTERY:before {
+  content: "\463";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\464";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\465";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\466";
+}
+
+.icon-CYRILLICSMALLLETTERL:before {
+  content: "\467";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\468";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\469";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\46a";
+}
+
+.icon-CYRILLICSMALLLETTERB:before {
+  content: "\46b";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\46c";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\46d";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\46e";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\46f";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\470";
+}
+
+.icon-CYRILLICSMALLLETTERP:before {
+  content: "\471";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\472";
+}
+
+.icon-CYRILLICSMALLLETTERF:before {
+  content: "\473";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\474";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\475";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\476";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\477";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\478";
+}
+
+.icon-CYRILLICSMALLLETTERU:before {
+  content: "\479";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\47a";
+}
+
+.icon-CYRILLICSMALLLETTERR:before {
+  content: "\47b";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\47c";
+}
+
+.icon-CYRILLICSMALLLETTERO:before {
+  content: "\47d";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\47e";
+}
+
+.icon-CYRILLICSMALLLETTERO:before {
+  content: "\47f";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\480";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\481";
+}
+
+.icon-CYRILLICTHOUSANDSSIG:before {
+  content: "\482";
+}
+
+.icon-COMBININGCYRILLICTIT:before {
+  content: "\483";
+}
+
+.icon-COMBININGCYRILLICPAL:before {
+  content: "\484";
+}
+
+.icon-COMBININGCYRILLICDAS:before {
+  content: "\485";
+}
+
+.icon-COMBININGCYRILLICPSI:before {
+  content: "\486";
+}
+
+.icon-COMBININGCYRILLICPOK:before {
+  content: "\487";
+}
+
+.icon-COMBININGCYRILLICHUN:before {
+  content: "\488";
+}
+
+.icon-COMBININGCYRILLICMIL:before {
+  content: "\489";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\48a";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\48b";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\48c";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\48d";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\48e";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\48f";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\490";
+}
+
+.icon-CYRILLICSMALLLETTERG:before {
+  content: "\491";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\492";
+}
+
+.icon-CYRILLICSMALLLETTERG:before {
+  content: "\493";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\494";
+}
+
+.icon-CYRILLICSMALLLETTERG:before {
+  content: "\495";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\496";
+}
+
+.icon-CYRILLICSMALLLETTERZ:before {
+  content: "\497";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\498";
+}
+
+.icon-CYRILLICSMALLLETTERZ:before {
+  content: "\499";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\49a";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\49b";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\49c";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\49d";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\49e";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\49f";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4a0";
+}
+
+.icon-CYRILLICSMALLLETTERB:before {
+  content: "\4a1";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4a2";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\4a3";
+}
+
+.icon-CYRILLICCAPITALLIGAT:before {
+  content: "\4a4";
+}
+
+.icon-CYRILLICSMALLLIGATUR:before {
+  content: "\4a5";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4a6";
+}
+
+.icon-CYRILLICSMALLLETTERP:before {
+  content: "\4a7";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4a8";
+}
+
+.icon-CYRILLICSMALLLETTERA:before {
+  content: "\4a9";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4aa";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\4ab";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4ac";
+}
+
+.icon-CYRILLICSMALLLETTERT:before {
+  content: "\4ad";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4ae";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\4af";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4b0";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\4b1";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4b2";
+}
+
+.icon-CYRILLICSMALLLETTERH:before {
+  content: "\4b3";
+}
+
+.icon-CYRILLICCAPITALLIGAT:before {
+  content: "\4b4";
+}
+
+.icon-CYRILLICSMALLLIGATUR:before {
+  content: "\4b5";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4b6";
+}
+
+.icon-CYRILLICSMALLLETTERC:before {
+  content: "\4b7";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4b8";
+}
+
+.icon-CYRILLICSMALLLETTERC:before {
+  content: "\4b9";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4ba";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\4bb";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4bc";
+}
+
+.icon-CYRILLICSMALLLETTERA:before {
+  content: "\4bd";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4be";
+}
+
+.icon-CYRILLICSMALLLETTERA:before {
+  content: "\4bf";
+}
+
+.icon-CYRILLICLETTERPALOCH:before {
+  content: "\4c0";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4c1";
+}
+
+.icon-CYRILLICSMALLLETTERZ:before {
+  content: "\4c2";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4c3";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\4c4";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4c5";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\4c6";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4c7";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\4c8";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4c9";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\4ca";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4cb";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\4cc";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4cd";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\4ce";
+}
+
+.icon-CYRILLICSMALLLETTERP:before {
+  content: "\4cf";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4d0";
+}
+
+.icon-CYRILLICSMALLLETTERA:before {
+  content: "\4d1";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4d2";
+}
+
+.icon-CYRILLICSMALLLETTERA:before {
+  content: "\4d3";
+}
+
+.icon-CYRILLICCAPITALLIGAT:before {
+  content: "\4d4";
+}
+
+.icon-CYRILLICSMALLLIGATUR:before {
+  content: "\4d5";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4d6";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\4d7";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4d8";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\4d9";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4da";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\4db";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4dc";
+}
+
+.icon-CYRILLICSMALLLETTERZ:before {
+  content: "\4dd";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4de";
+}
+
+.icon-CYRILLICSMALLLETTERZ:before {
+  content: "\4df";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4e0";
+}
+
+.icon-CYRILLICSMALLLETTERA:before {
+  content: "\4e1";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4e2";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\4e3";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4e4";
+}
+
+.icon-CYRILLICSMALLLETTERI:before {
+  content: "\4e5";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4e6";
+}
+
+.icon-CYRILLICSMALLLETTERO:before {
+  content: "\4e7";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4e8";
+}
+
+.icon-CYRILLICSMALLLETTERB:before {
+  content: "\4e9";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4ea";
+}
+
+.icon-CYRILLICSMALLLETTERB:before {
+  content: "\4eb";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4ec";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\4ed";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4ee";
+}
+
+.icon-CYRILLICSMALLLETTERU:before {
+  content: "\4ef";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4f0";
+}
+
+.icon-CYRILLICSMALLLETTERU:before {
+  content: "\4f1";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4f2";
+}
+
+.icon-CYRILLICSMALLLETTERU:before {
+  content: "\4f3";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4f4";
+}
+
+.icon-CYRILLICSMALLLETTERC:before {
+  content: "\4f5";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4f6";
+}
+
+.icon-CYRILLICSMALLLETTERG:before {
+  content: "\4f7";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4f8";
+}
+
+.icon-CYRILLICSMALLLETTERY:before {
+  content: "\4f9";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4fa";
+}
+
+.icon-CYRILLICSMALLLETTERG:before {
+  content: "\4fb";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4fc";
+}
+
+.icon-CYRILLICSMALLLETTERH:before {
+  content: "\4fd";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\4fe";
+}
+
+.icon-CYRILLICSMALLLETTERH:before {
+  content: "\4ff";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\500";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\501";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\502";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\503";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\504";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\505";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\506";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\507";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\508";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\509";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\50a";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\50b";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\50c";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\50d";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\50e";
+}
+
+.icon-CYRILLICSMALLLETTERK:before {
+  content: "\50f";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\510";
+}
+
+.icon-CYRILLICSMALLLETTERR:before {
+  content: "\511";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\512";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\513";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\514";
+}
+
+.icon-CYRILLICSMALLLETTERL:before {
+  content: "\515";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\516";
+}
+
+.icon-CYRILLICSMALLLETTERR:before {
+  content: "\517";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\518";
+}
+
+.icon-CYRILLICSMALLLETTERY:before {
+  content: "\519";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\51a";
+}
+
+.icon-CYRILLICSMALLLETTERQ:before {
+  content: "\51b";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\51c";
+}
+
+.icon-CYRILLICSMALLLETTERW:before {
+  content: "\51d";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\51e";
+}
+
+.icon-CYRILLICSMALLLETTERA:before {
+  content: "\51f";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\520";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\521";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\522";
+}
+
+.icon-CYRILLICSMALLLETTERE:before {
+  content: "\523";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\524";
+}
+
+.icon-CYRILLICSMALLLETTERP:before {
+  content: "\525";
+}
+
+.icon-CYRILLICCapitalLette:before {
+  content: "\526";
+}
+
+.icon-CYRILLICSMALLLETTERS:before {
+  content: "\527";
+}
+
+.icon-[namenotfound]:before {
+  content: "\528";
+}
+
+.icon-[namenotfound]:before {
+  content: "\529";
+}
+
+.icon-[namenotfound]:before {
+  content: "\52a";
+}
+
+.icon-[namenotfound]:before {
+  content: "\52b";
+}
+
+.icon-[namenotfound]:before {
+  content: "\52c";
+}
+
+.icon-[namenotfound]:before {
+  content: "\52d";
+}
+
+.icon-[namenotfound]:before {
+  content: "\52e";
+}
+
+.icon-[namenotfound]:before {
+  content: "\52f";
+}
+
+.icon-CapitalLetterDWITHDO:before {
+  content: "\1e0c";
+}
+
+.icon-SMALLLETTERDWITHDOTB:before {
+  content: "\1e0d";
+}
+
+.icon-CapitalLetterDWITHLI:before {
+  content: "\1e0e";
+}
+
+.icon-SMALLLETTERDWITHLINE:before {
+  content: "\1e0f";
+}
+
+.icon-CapitalLetterGWITHMA:before {
+  content: "\1e20";
+}
+
+.icon-SMALLLETTERGWITHMACR:before {
+  content: "\1e21";
+}
+
+.icon-CapitalLetterHWITHDO:before {
+  content: "\1e24";
+}
+
+.icon-SMALLLETTERHWITHDOTB:before {
+  content: "\1e25";
+}
+
+.icon-CapitalLetterHWITHBR:before {
+  content: "\1e2a";
+}
+
+.icon-SMALLLETTERHWITHBREV:before {
+  content: "\1e2b";
+}
+
+.icon-CapitalLetterLWITHDO:before {
+  content: "\1e36";
+}
+
+.icon-SMALLLETTERLWITHDOTB:before {
+  content: "\1e37";
+}
+
+.icon-CapitalLetterLWITHDO:before {
+  content: "\1e38";
+}
+
+.icon-SMALLLETTERLWITHDOTB:before {
+  content: "\1e39";
+}
+
+.icon-CapitalLetterLWITHLI:before {
+  content: "\1e3a";
+}
+
+.icon-SMALLLETTERLWITHLINE:before {
+  content: "\1e3b";
+}
+
+.icon-CapitalLetterMWITHDO:before {
+  content: "\1e42";
+}
+
+.icon-SMALLLETTERMWITHDOTB:before {
+  content: "\1e43";
+}
+
+.icon-CapitalLetterNWITHDO:before {
+  content: "\1e44";
+}
+
+.icon-SMALLLETTERNWITHDOTA:before {
+  content: "\1e45";
+}
+
+.icon-CapitalLetterNWITHDO:before {
+  content: "\1e46";
+}
+
+.icon-SMALLLETTERNWITHDOTB:before {
+  content: "\1e47";
+}
+
+.icon-CapitalLetterNWITHLI:before {
+  content: "\1e48";
+}
+
+.icon-SMALLLETTERNWITHLINE:before {
+  content: "\1e49";
+}
+
+.icon-CapitalLetterRWITHDO:before {
+  content: "\1e5a";
+}
+
+.icon-SMALLLETTERRWITHDOTB:before {
+  content: "\1e5b";
+}
+
+.icon-CapitalLetterRWITHDO:before {
+  content: "\1e5c";
+}
+
+.icon-SMALLLETTERRWITHDOTB:before {
+  content: "\1e5d";
+}
+
+.icon-CapitalLetterRWITHLI:before {
+  content: "\1e5e";
+}
+
+.icon-SMALLLETTERRWITHLINE:before {
+  content: "\1e5f";
+}
+
+.icon-CapitalLetterSWITHDO:before {
+  content: "\1e60";
+}
+
+.icon-SMALLLETTERSWITHDOTA:before {
+  content: "\1e61";
+}
+
+.icon-CapitalLetterSWITHDO:before {
+  content: "\1e62";
+}
+
+.icon-SMALLLETTERSWITHDOTB:before {
+  content: "\1e63";
+}
+
+.icon-CapitalLetterTWITHDO:before {
+  content: "\1e6c";
+}
+
+.icon-SMALLLETTERTWITHDOTB:before {
+  content: "\1e6d";
+}
+
+.icon-CapitalLetterTWITHLI:before {
+  content: "\1e6e";
+}
+
+.icon-SMALLLETTERTWITHLINE:before {
+  content: "\1e6f";
+}
+
+.icon-Wgrave:before {
+  content: "\1e80";
+}
+
+.icon-wgrave:before {
+  content: "\1e81";
+}
+
+.icon-Wacute:before {
+  content: "\1e82";
+}
+
+.icon-wacute:before {
+  content: "\1e83";
+}
+
+.icon-Wdieresis:before {
+  content: "\1e84";
+}
+
+.icon-wdieresis:before {
+  content: "\1e85";
+}
+
+.icon-CapitalLetterYWITHDO:before {
+  content: "\1e8e";
+}
+
+.icon-SMALLLETTERYWITHDOTA:before {
+  content: "\1e8f";
+}
+
+.icon-CapitalLetterZWITHDO:before {
+  content: "\1e92";
+}
+
+.icon-SMALLLETTERZWITHDOTB:before {
+  content: "\1e93";
+}
+
+.icon-SMALLLETTERTWITHDIAE:before {
+  content: "\1e97";
+}
+
+.icon-CapitalLetterSHARPS:before {
+  content: "\1e9e";
+}
+
+.icon-CapitalLetterAWITHDO:before {
+  content: "\1ea0";
+}
+
+.icon-SMALLLETTERAWITHDOTB:before {
+  content: "\1ea1";
+}
+
+.icon-CapitalLetterAWITHHO:before {
+  content: "\1ea2";
+}
+
+.icon-SMALLLETTERAWITHHOOK:before {
+  content: "\1ea3";
+}
+
+.icon-CapitalLetterAWITHCI:before {
+  content: "\1ea4";
+}
+
+.icon-SMALLLETTERAWITHCIRC:before {
+  content: "\1ea5";
+}
+
+.icon-CapitalLetterAWITHCI:before {
+  content: "\1ea6";
+}
+
+.icon-SMALLLETTERAWITHCIRC:before {
+  content: "\1ea7";
+}
+
+.icon-CapitalLetterAWITHCI:before {
+  content: "\1ea8";
+}
+
+.icon-SMALLLETTERAWITHCIRC:before {
+  content: "\1ea9";
+}
+
+.icon-CapitalLetterAWITHCI:before {
+  content: "\1eaa";
+}
+
+.icon-SMALLLETTERAWITHCIRC:before {
+  content: "\1eab";
+}
+
+.icon-CapitalLetterAWITHCI:before {
+  content: "\1eac";
+}
+
+.icon-SMALLLETTERAWITHCIRC:before {
+  content: "\1ead";
+}
+
+.icon-CapitalLetterAWITHBR:before {
+  content: "\1eae";
+}
+
+.icon-SMALLLETTERAWITHBREV:before {
+  content: "\1eaf";
+}
+
+.icon-CapitalLetterAWITHBR:before {
+  content: "\1eb0";
+}
+
+.icon-SMALLLETTERAWITHBREV:before {
+  content: "\1eb1";
+}
+
+.icon-CapitalLetterAWITHBR:before {
+  content: "\1eb2";
+}
+
+.icon-SMALLLETTERAWITHBREV:before {
+  content: "\1eb3";
+}
+
+.icon-CapitalLetterAWITHBR:before {
+  content: "\1eb4";
+}
+
+.icon-SMALLLETTERAWITHBREV:before {
+  content: "\1eb5";
+}
+
+.icon-CapitalLetterAWITHBR:before {
+  content: "\1eb6";
+}
+
+.icon-SMALLLETTERAWITHBREV:before {
+  content: "\1eb7";
+}
+
+.icon-CapitalLetterEWITHDO:before {
+  content: "\1eb8";
+}
+
+.icon-SMALLLETTEREWITHDOTB:before {
+  content: "\1eb9";
+}
+
+.icon-CapitalLetterEWITHHO:before {
+  content: "\1eba";
+}
+
+.icon-SMALLLETTEREWITHHOOK:before {
+  content: "\1ebb";
+}
+
+.icon-CapitalLetterEWITHTI:before {
+  content: "\1ebc";
+}
+
+.icon-SMALLLETTEREWITHTILD:before {
+  content: "\1ebd";
+}
+
+.icon-CapitalLetterEWITHCI:before {
+  content: "\1ebe";
+}
+
+.icon-SMALLLETTEREWITHCIRC:before {
+  content: "\1ebf";
+}
+
+.icon-CapitalLetterEWITHCI:before {
+  content: "\1ec0";
+}
+
+.icon-SMALLLETTEREWITHCIRC:before {
+  content: "\1ec1";
+}
+
+.icon-CapitalLetterEWITHCI:before {
+  content: "\1ec2";
+}
+
+.icon-SMALLLETTEREWITHCIRC:before {
+  content: "\1ec3";
+}
+
+.icon-CapitalLetterEWITHCI:before {
+  content: "\1ec4";
+}
+
+.icon-SMALLLETTEREWITHCIRC:before {
+  content: "\1ec5";
+}
+
+.icon-CapitalLetterEWITHCI:before {
+  content: "\1ec6";
+}
+
+.icon-SMALLLETTEREWITHCIRC:before {
+  content: "\1ec7";
+}
+
+.icon-CapitalLetterIWITHHO:before {
+  content: "\1ec8";
+}
+
+.icon-SMALLLETTERIWITHHOOK:before {
+  content: "\1ec9";
+}
+
+.icon-CapitalLetterIWITHDO:before {
+  content: "\1eca";
+}
+
+.icon-SMALLLETTERIWITHDOTB:before {
+  content: "\1ecb";
+}
+
+.icon-CapitalLetterOWITHDO:before {
+  content: "\1ecc";
+}
+
+.icon-SMALLLETTEROWITHDOTB:before {
+  content: "\1ecd";
+}
+
+.icon-CapitalLetterOWITHHO:before {
+  content: "\1ece";
+}
+
+.icon-SMALLLETTEROWITHHOOK:before {
+  content: "\1ecf";
+}
+
+.icon-CapitalLetterOWITHCI:before {
+  content: "\1ed0";
+}
+
+.icon-SMALLLETTEROWITHCIRC:before {
+  content: "\1ed1";
+}
+
+.icon-CapitalLetterOWITHCI:before {
+  content: "\1ed2";
+}
+
+.icon-SMALLLETTEROWITHCIRC:before {
+  content: "\1ed3";
+}
+
+.icon-CapitalLetterOWITHCI:before {
+  content: "\1ed4";
+}
+
+.icon-SMALLLETTEROWITHCIRC:before {
+  content: "\1ed5";
+}
+
+.icon-CapitalLetterOWITHCI:before {
+  content: "\1ed6";
+}
+
+.icon-SMALLLETTEROWITHCIRC:before {
+  content: "\1ed7";
+}
+
+.icon-CapitalLetterOWITHCI:before {
+  content: "\1ed8";
+}
+
+.icon-SMALLLETTEROWITHCIRC:before {
+  content: "\1ed9";
+}
+
+.icon-CapitalLetterOWITHHO:before {
+  content: "\1eda";
+}
+
+.icon-SMALLLETTEROWITHHORN:before {
+  content: "\1edb";
+}
+
+.icon-CapitalLetterOWITHHO:before {
+  content: "\1edc";
+}
+
+.icon-SMALLLETTEROWITHHORN:before {
+  content: "\1edd";
+}
+
+.icon-CapitalLetterOWITHHO:before {
+  content: "\1ede";
+}
+
+.icon-SMALLLETTEROWITHHORN:before {
+  content: "\1edf";
+}
+
+.icon-CapitalLetterOWITHHO:before {
+  content: "\1ee0";
+}
+
+.icon-SMALLLETTEROWITHHORN:before {
+  content: "\1ee1";
+}
+
+.icon-CapitalLetterOWITHHO:before {
+  content: "\1ee2";
+}
+
+.icon-SMALLLETTEROWITHHORN:before {
+  content: "\1ee3";
+}
+
+.icon-CapitalLetterUWITHDO:before {
+  content: "\1ee4";
+}
+
+.icon-SMALLLETTERUWITHDOTB:before {
+  content: "\1ee5";
+}
+
+.icon-CapitalLetterUWITHHO:before {
+  content: "\1ee6";
+}
+
+.icon-SMALLLETTERUWITHHOOK:before {
+  content: "\1ee7";
+}
+
+.icon-CapitalLetterUWITHHO:before {
+  content: "\1ee8";
+}
+
+.icon-SMALLLETTERUWITHHORN:before {
+  content: "\1ee9";
+}
+
+.icon-CapitalLetterUWITHHO:before {
+  content: "\1eea";
+}
+
+.icon-SMALLLETTERUWITHHORN:before {
+  content: "\1eeb";
+}
+
+.icon-CapitalLetterUWITHHO:before {
+  content: "\1eec";
+}
+
+.icon-SMALLLETTERUWITHHORN:before {
+  content: "\1eed";
+}
+
+.icon-CapitalLetterUWITHHO:before {
+  content: "\1eee";
+}
+
+.icon-SMALLLETTERUWITHHORN:before {
+  content: "\1eef";
+}
+
+.icon-CapitalLetterUWITHHO:before {
+  content: "\1ef0";
+}
+
+.icon-SMALLLETTERUWITHHORN:before {
+  content: "\1ef1";
+}
+
+.icon-Ygrave:before {
+  content: "\1ef2";
+}
+
+.icon-ygrave:before {
+  content: "\1ef3";
+}
+
+.icon-CapitalLetterYWITHDO:before {
+  content: "\1ef4";
+}
+
+.icon-SMALLLETTERYWITHDOTB:before {
+  content: "\1ef5";
+}
+
+.icon-CapitalLetterYWITHHO:before {
+  content: "\1ef6";
+}
+
+.icon-SMALLLETTERYWITHHOOK:before {
+  content: "\1ef7";
+}
+
+.icon-CapitalLetterYWITHTI:before {
+  content: "\1ef8";
+}
+
+.icon-SMALLLETTERYWITHTILD:before {
+  content: "\1ef9";
+}
+
+.icon-FIGURESPACE:before {
+  content: "\2007";
+}
+
+.icon-HYPHEN:before {
+  content: "\2010";
+}
+
+.icon-NON-BREAKINGHYPHEN:before {
+  content: "\2011";
+}
+
+.icon-figuredash:before {
+  content: "\2012";
+}
+
+.icon-endash:before {
+  content: "\2013";
+}
+
+.icon-emdash:before {
+  content: "\2014";
+}
+
+.icon-HORIZONTALBAR:before {
+  content: "\2015";
+}
+
+.icon-DOUBLEVERTICALLINE:before {
+  content: "\2016";
+}
+
+.icon-underscoredbl:before {
+  content: "\2017";
+}
+
+.icon-quoteleft:before {
+  content: "\2018";
+}
+
+.icon-quoteright:before {
+  content: "\2019";
+}
+
+.icon-quotesinglbase:before {
+  content: "\201a";
+}
+
+.icon-quotereversed:before {
+  content: "\201b";
+}
+
+.icon-quotedblleft:before {
+  content: "\201c";
+}
+
+.icon-quotedblright:before {
+  content: "\201d";
+}
+
+.icon-quotedblbase:before {
+  content: "\201e";
+}
+
+.icon-DOUBLEHIGH-REVERSED-:before {
+  content: "\201f";
+}
+
+.icon-dagger:before {
+  content: "\2020";
+}
+
+.icon-daggerdbl:before {
+  content: "\2021";
+}
+
+.icon-bullet:before {
+  content: "\2022";
+}
+
+.icon-TRIANGULARBULLET:before {
+  content: "\2023";
+}
+
+.icon-onedotenleader:before {
+  content: "\2024";
+}
+
+.icon-twodotenleader:before {
+  content: "\2025";
+}
+
+.icon-ellipsis:before {
+  content: "\2026";
+}
+
+.icon-HYPHENATIONPOINT:before {
+  content: "\2027";
+}
+
+.icon-perthousand:before {
+  content: "\2030";
+}
+
+.icon-PERTENTHOUSANDSIGN:before {
+  content: "\2031";
+}
+
+.icon-minute:before {
+  content: "\2032";
+}
+
+.icon-second:before {
+  content: "\2033";
+}
+
+.icon-TRIPLEPRIME:before {
+  content: "\2034";
+}
+
+.icon-REVERSEDPRIME:before {
+  content: "\2035";
+}
+
+.icon-REVERSEDDOUBLEPRIME:before {
+  content: "\2036";
+}
+
+.icon-REVERSEDTRIPLEPRIME:before {
+  content: "\2037";
+}
+
+.icon-CARET:before {
+  content: "\2038";
+}
+
+.icon-guilsinglleft:before {
+  content: "\2039";
+}
+
+.icon-guilsinglright:before {
+  content: "\203a";
+}
+
+.icon-REFERENCEMARK:before {
+  content: "\203b";
+}
+
+.icon-exclamdbl:before {
+  content: "\203c";
+}
+
+.icon-INTERROBANG:before {
+  content: "\203d";
+}
+
+.icon-OVERLINE:before {
+  content: "\203e";
+}
+
+.icon-UNDERTIE:before {
+  content: "\203f";
+}
+
+.icon-CHARACTERTIE:before {
+  content: "\2040";
+}
+
+.icon-CARETINSERTIONPOINT:before {
+  content: "\2041";
+}
+
+.icon-ASTERISM:before {
+  content: "\2042";
+}
+
+.icon-HYPHENBULLET:before {
+  content: "\2043";
+}
+
+.icon-fraction:before {
+  content: "\2044";
+}
+
+.icon-LEFTSQUAREBRACKETWIT:before {
+  content: "\2045";
+}
+
+.icon-RIGHTSQUAREBRACKETWI:before {
+  content: "\2046";
+}
+
+.icon-DOUBLEQUESTIONMARK:before {
+  content: "\2047";
+}
+
+.icon-QUESTIONEXCLAMATIONM:before {
+  content: "\2048";
+}
+
+.icon-EXCLAMATIONQUESTIONM:before {
+  content: "\2049";
+}
+
+.icon-TIRONIANSIGNET:before {
+  content: "\204a";
+}
+
+.icon-REVERSEDPILCROWSIGN:before {
+  content: "\204b";
+}
+
+.icon-BLACKLEFTWARDSBULLET:before {
+  content: "\204c";
+}
+
+.icon-BLACKRIGHTWARDSBULLE:before {
+  content: "\204d";
+}
+
+.icon-LOWASTERISK:before {
+  content: "\204e";
+}
+
+.icon-REVERSEDSEMICOLON:before {
+  content: "\204f";
+}
+
+.icon-CLOSEUP:before {
+  content: "\2050";
+}
+
+.icon-TWOASTERISKSALIGNEDV:before {
+  content: "\2051";
+}
+
+.icon-COMMERCIALMINUSSIGN:before {
+  content: "\2052";
+}
+
+.icon-SWUNGDASH:before {
+  content: "\2053";
+}
+
+.icon-INVERTEDUNDERTIE:before {
+  content: "\2054";
+}
+
+.icon-FLOWERPUNCTUATIONMAR:before {
+  content: "\2055";
+}
+
+.icon-THREEDOTPUNCTUATION:before {
+  content: "\2056";
+}
+
+.icon-QUADRUPLEPRIME:before {
+  content: "\2057";
+}
+
+.icon-FOURDOTPUNCTUATION:before {
+  content: "\2058";
+}
+
+.icon-FIVEDOTPUNCTUATION:before {
+  content: "\2059";
+}
+
+.icon-TWODOTPUNCTUATION:before {
+  content: "\205a";
+}
+
+.icon-FOURDOTMARK:before {
+  content: "\205b";
+}
+
+.icon-DOTTEDCROSS:before {
+  content: "\205c";
+}
+
+.icon-TRICOLON:before {
+  content: "\205d";
+}
+
+.icon-VERTICALFOURDOTS:before {
+  content: "\205e";
+}
+
+.icon-SUPERSCRIPTZERO:before {
+  content: "\2070";
+}
+
+.icon-SUPERSCRIPTSMALLLETT:before {
+  content: "\2071";
+}
+
+.icon-SUPERSCRIPTFOUR:before {
+  content: "\2074";
+}
+
+.icon-SUPERSCRIPTFIVE:before {
+  content: "\2075";
+}
+
+.icon-SUPERSCRIPTSIX:before {
+  content: "\2076";
+}
+
+.icon-SUPERSCRIPTSEVEN:before {
+  content: "\2077";
+}
+
+.icon-SUPERSCRIPTEIGHT:before {
+  content: "\2078";
+}
+
+.icon-SUPERSCRIPTNINE:before {
+  content: "\2079";
+}
+
+.icon-SUPERSCRIPTPLUSSIGN:before {
+  content: "\207a";
+}
+
+.icon-SUPERSCRIPTMINUS:before {
+  content: "\207b";
+}
+
+.icon-SUPERSCRIPTEQUALSSIG:before {
+  content: "\207c";
+}
+
+.icon-SUPERSCRIPTLEFTPAREN:before {
+  content: "\207d";
+}
+
+.icon-SUPERSCRIPTRIGHTPARE:before {
+  content: "\207e";
+}
+
+.icon-SUPERSCRIPTSMALLLETT:before {
+  content: "\207f";
+}
+
+.icon-SUBSCRIPTZERO:before {
+  content: "\2080";
+}
+
+.icon-SUBSCRIPTONE:before {
+  content: "\2081";
+}
+
+.icon-SUBSCRIPTTWO:before {
+  content: "\2082";
+}
+
+.icon-SUBSCRIPTTHREE:before {
+  content: "\2083";
+}
+
+.icon-SUBSCRIPTFOUR:before {
+  content: "\2084";
+}
+
+.icon-SUBSCRIPTFIVE:before {
+  content: "\2085";
+}
+
+.icon-SUBSCRIPTSIX:before {
+  content: "\2086";
+}
+
+.icon-SUBSCRIPTSEVEN:before {
+  content: "\2087";
+}
+
+.icon-SUBSCRIPTEIGHT:before {
+  content: "\2088";
+}
+
+.icon-SUBSCRIPTNINE:before {
+  content: "\2089";
+}
+
+.icon-SUBSCRIPTPLUSSIGN:before {
+  content: "\208a";
+}
+
+.icon-SUBSCRIPTMINUS:before {
+  content: "\208b";
+}
+
+.icon-SUBSCRIPTEQUALSSIGN:before {
+  content: "\208c";
+}
+
+.icon-SUBSCRIPTLEFTPARENTH:before {
+  content: "\208d";
+}
+
+.icon-SUBSCRIPTRIGHTPARENT:before {
+  content: "\208e";
+}
+
+.icon-colonmonetary:before {
+  content: "\20a1";
+}
+
+.icon-franc:before {
+  content: "\20a3";
+}
+
+.icon-lira:before {
+  content: "\20a4";
+}
+
+.icon-NAIRASIGN:before {
+  content: "\20a6";
+}
+
+.icon-peseta:before {
+  content: "\20a7";
+}
+
+.icon-RUPEESIGN:before {
+  content: "\20a8";
+}
+
+.icon-WONSIGN:before {
+  content: "\20a9";
+}
+
+.icon-NEWSHEQELSIGN:before {
+  content: "\20aa";
+}
+
+.icon-dong:before {
+  content: "\20ab";
+}
+
+.icon-Euro:before {
+  content: "\20ac";
+}
+
+.icon-KIPSIGN:before {
+  content: "\20ad";
+}
+
+.icon-TUGRIKSIGN:before {
+  content: "\20ae";
+}
+
+.icon-GERMANPENNYSIGN:before {
+  content: "\20b0";
+}
+
+.icon-PESOSIGN:before {
+  content: "\20b1";
+}
+
+.icon-GUARANISIGN:before {
+  content: "\20b2";
+}
+
+.icon-AUSTRALSIGN:before {
+  content: "\20b3";
+}
+
+.icon-CEDISIGN:before {
+  content: "\20b5";
+}
+
+.icon-INDIANRUPEESIGN:before {
+  content: "\20b9";
+}
+
+.icon-TURKISHLIRASIGN:before {
+  content: "\20ba";
+}
+
+.icon-[namenotfound]:before {
+  content: "\20bd";
+}
+
+.icon-[namenotfound]:before {
+  content: "\20bf";
+}
+
+.icon-CAREOF:before {
+  content: "\2105";
+}
+
+.icon-SCRIPTSMALLL:before {
+  content: "\2113";
+}
+
+.icon-SOUNDRECORDINGCOPYRI:before {
+  content: "\2117";
+}
+
+.icon-prescription:before {
+  content: "\211e";
+}
+
+.icon-SERVICEMARK:before {
+  content: "\2120";
+}
+
+.icon-trademark:before {
+  content: "\2122";
+}
+
+.icon-VERSICLE:before {
+  content: "\2123";
+}
+
+.icon-DOUBLE-STRUCKCAPITAL:before {
+  content: "\2124";
+}
+
+.icon-OUNCESIGN:before {
+  content: "\2125";
+}
+
+.icon-Omega:before {
+  content: "\2126";
+}
+
+.icon-INVERTEDOHMSIGN:before {
+  content: "\2127";
+}
+
+.icon-estimated:before {
+  content: "\212e";
+}
+
+.icon-DOUBLE-STRUCKSMALLPI:before {
+  content: "\213c";
+}
+
+.icon-onethird:before {
+  content: "\2153";
+}
+
+.icon-twothirds:before {
+  content: "\2154";
+}
+
+.icon-oneeighth:before {
+  content: "\215b";
+}
+
+.icon-threeeighths:before {
+  content: "\215c";
+}
+
+.icon-fiveeighths:before {
+  content: "\215d";
+}
+
+.icon-seveneighths:before {
+  content: "\215e";
+}
+
+.icon-arrowleft:before {
+  content: "\2190";
+}
+
+.icon-arrowup:before {
+  content: "\2191";
+}
+
+.icon-arrowright:before {
+  content: "\2192";
+}
+
+.icon-arrowdown:before {
+  content: "\2193";
+}
+
+.icon-arrowboth:before {
+  content: "\2194";
+}
+
+.icon-arrowupdn:before {
+  content: "\2195";
+}
+
+.icon-NORTHEASTARROW:before {
+  content: "\2197";
+}
+
+.icon-SOUTHEASTARROW:before {
+  content: "\2198";
+}
+
+.icon-arrowupdnbse:before {
+  content: "\21a8";
+}
+
+.icon-universal:before {
+  content: "\2200";
+}
+
+.icon-COMPLEMENT:before {
+  content: "\2201";
+}
+
+.icon-partialdiff:before {
+  content: "\2202";
+}
+
+.icon-existential:before {
+  content: "\2203";
+}
+
+.icon-THEREDOESNOTEXIST:before {
+  content: "\2204";
+}
+
+.icon-emptyset:before {
+  content: "\2205";
+}
+
+.icon-Delta:before {
+  content: "\2206";
+}
+
+.icon-gradient:before {
+  content: "\2207";
+}
+
+.icon-element:before {
+  content: "\2208";
+}
+
+.icon-notelement:before {
+  content: "\2209";
+}
+
+.icon-SMALLELEMENTOF:before {
+  content: "\220a";
+}
+
+.icon-suchthat:before {
+  content: "\220b";
+}
+
+.icon-DOESNOTCONTAINASMEMB:before {
+  content: "\220c";
+}
+
+.icon-SMALLCONTAINSASMEMBE:before {
+  content: "\220d";
+}
+
+.icon-ENDOFPROOF:before {
+  content: "\220e";
+}
+
+.icon-product:before {
+  content: "\220f";
+}
+
+.icon-N-ARYCOPRODUCT:before {
+  content: "\2210";
+}
+
+.icon-summation:before {
+  content: "\2211";
+}
+
+.icon-minus:before {
+  content: "\2212";
+}
+
+.icon-MINUS-OR-PLUSSIGN:before {
+  content: "\2213";
+}
+
+.icon-DOTPLUS:before {
+  content: "\2214";
+}
+
+.icon-DIVISIONSLASH:before {
+  content: "\2215";
+}
+
+.icon-SETMINUS:before {
+  content: "\2216";
+}
+
+.icon-asteriskmath:before {
+  content: "\2217";
+}
+
+.icon-RINGOPERATOR:before {
+  content: "\2218";
+}
+
+.icon-BULLETOPERATOR:before {
+  content: "\2219";
+}
+
+.icon-radical:before {
+  content: "\221a";
+}
+
+.icon-proportional:before {
+  content: "\221d";
+}
+
+.icon-infinity:before {
+  content: "\221e";
+}
+
+.icon-orthogonal:before {
+  content: "\221f";
+}
+
+.icon-angle:before {
+  content: "\2220";
+}
+
+.icon-DIVIDES:before {
+  content: "\2223";
+}
+
+.icon-DOESNOTDIVIDE:before {
+  content: "\2224";
+}
+
+.icon-PARALLELTO:before {
+  content: "\2225";
+}
+
+.icon-NOTPARALLELTO:before {
+  content: "\2226";
+}
+
+.icon-logicaland:before {
+  content: "\2227";
+}
+
+.icon-logicalor:before {
+  content: "\2228";
+}
+
+.icon-intersection:before {
+  content: "\2229";
+}
+
+.icon-union:before {
+  content: "\222a";
+}
+
+.icon-integral:before {
+  content: "\222b";
+}
+
+.icon-therefore:before {
+  content: "\2234";
+}
+
+.icon-BECAUSE:before {
+  content: "\2235";
+}
+
+.icon-RATIO:before {
+  content: "\2236";
+}
+
+.icon-PROPORTION:before {
+  content: "\2237";
+}
+
+.icon-DOTMINUS:before {
+  content: "\2238";
+}
+
+.icon-EXCESS:before {
+  content: "\2239";
+}
+
+.icon-GEOMETRICPROPORTION:before {
+  content: "\223a";
+}
+
+.icon-HOMOTHETIC:before {
+  content: "\223b";
+}
+
+.icon-similar:before {
+  content: "\223c";
+}
+
+.icon-REVERSEDTILDE:before {
+  content: "\223d";
+}
+
+.icon-INVERTEDLAZYS:before {
+  content: "\223e";
+}
+
+.icon-SINEWAVE:before {
+  content: "\223f";
+}
+
+.icon-WREATHPRODUCT:before {
+  content: "\2240";
+}
+
+.icon-NOTTILDE:before {
+  content: "\2241";
+}
+
+.icon-MINUSTILDE:before {
+  content: "\2242";
+}
+
+.icon-ASYMPTOTICALLYEQUALT:before {
+  content: "\2243";
+}
+
+.icon-NOTASYMPTOTICALLYEQU:before {
+  content: "\2244";
+}
+
+.icon-approxequal:before {
+  content: "\2248";
+}
+
+.icon-NOTALMOSTEQUALTO:before {
+  content: "\2249";
+}
+
+.icon-ALMOSTEQUALOREQUALTO:before {
+  content: "\224a";
+}
+
+.icon-TRIPLETILDE:before {
+  content: "\224b";
+}
+
+.icon-ALLEQUALTO:before {
+  content: "\224c";
+}
+
+.icon-EQUIVALENTTO:before {
+  content: "\224d";
+}
+
+.icon-notequal:before {
+  content: "\2260";
+}
+
+.icon-equivalence:before {
+  content: "\2261";
+}
+
+.icon-NOTIDENTICALTO:before {
+  content: "\2262";
+}
+
+.icon-STRICTLYEQUIVALENTTO:before {
+  content: "\2263";
+}
+
+.icon-lessequal:before {
+  content: "\2264";
+}
+
+.icon-greaterequal:before {
+  content: "\2265";
+}
+
+.icon-VERTICALELLIPSIS:before {
+  content: "\22ee";
+}
+
+.icon-MIDLINEHORIZONTALELL:before {
+  content: "\22ef";
+}
+
+.icon-UPRIGHTDIAGONALELLIP:before {
+  content: "\22f0";
+}
+
+.icon-DOWNRIGHTDIAGONALELL:before {
+  content: "\22f1";
+}
+
+.icon-house:before {
+  content: "\2302";
+}
+
+.icon-upblock:before {
+  content: "\2580";
+}
+
+.icon-RIGHTONEEIGHTHBLOCK:before {
+  content: "\2595";
+}
+
+.icon-QUADRANTLOWERLEFT:before {
+  content: "\2596";
+}
+
+.icon-QUADRANTLOWERRIGHT:before {
+  content: "\2597";
+}
+
+.icon-QUADRANTUPPERLEFT:before {
+  content: "\2598";
+}
+
+.icon-QUADRANTUPPERLEFTAND:before {
+  content: "\2599";
+}
+
+.icon-QUADRANTUPPERLEFTAND:before {
+  content: "\259a";
+}
+
+.icon-QUADRANTUPPERLEFTAND:before {
+  content: "\259b";
+}
+
+.icon-QUADRANTUPPERLEFTAND:before {
+  content: "\259c";
+}
+
+.icon-QUADRANTUPPERRIGHT:before {
+  content: "\259d";
+}
+
+.icon-QUADRANTUPPERRIGHTAN:before {
+  content: "\259e";
+}
+
+.icon-QUADRANTUPPERRIGHTAN:before {
+  content: "\259f";
+}
+
+.icon-filledbox:before {
+  content: "\25a0";
+}
+
+.icon-H22073:before {
+  content: "\25a1";
+}
+
+.icon-WHITESQUAREWITHROUND:before {
+  content: "\25a2";
+}
+
+.icon-WHITESQUARECONTAININ:before {
+  content: "\25a3";
+}
+
+.icon-H18543:before {
+  content: "\25aa";
+}
+
+.icon-H18551:before {
+  content: "\25ab";
+}
+
+.icon-filledrect:before {
+  content: "\25ac";
+}
+
+.icon-WHITERECTANGLE:before {
+  content: "\25ad";
+}
+
+.icon-triagup:before {
+  content: "\25b2";
+}
+
+.icon-WHITEUP-POINTINGTRIA:before {
+  content: "\25b3";
+}
+
+.icon-BLACKRIGHT-POINTINGT:before {
+  content: "\25b6";
+}
+
+.icon-WHITERIGHT-POINTINGT:before {
+  content: "\25b7";
+}
+
+.icon-triagdn:before {
+  content: "\25bc";
+}
+
+.icon-WHITEDOWN-POINTINGTR:before {
+  content: "\25bd";
+}
+
+.icon-BLACKLEFT-POINTINGTR:before {
+  content: "\25c0";
+}
+
+.icon-WHITELEFT-POINTINGTR:before {
+  content: "\25c1";
+}
+
+.icon-BLACKDIAMOND:before {
+  content: "\25c6";
+}
+
+.icon-FISHEYE:before {
+  content: "\25c9";
+}
+
+.icon-lozenge:before {
+  content: "\25ca";
+}
+
+.icon-circle:before {
+  content: "\25cb";
+}
+
+.icon-DOTTEDCIRCLE:before {
+  content: "\25cc";
+}
+
+.icon-H18533:before {
+  content: "\25cf";
+}
+
+.icon-openbullet:before {
+  content: "\25e6";
+}
+
+.icon-BLACKSUNWITHRAYS:before {
+  content: "\2600";
+}
+
+.icon-BLACKSTAR:before {
+  content: "\2605";
+}
+
+.icon-WHITESTAR:before {
+  content: "\2606";
+}
+
+.icon-LIGHTNING:before {
+  content: "\2607";
+}
+
+.icon-THUNDERSTORM:before {
+  content: "\2608";
+}
+
+.icon-SUN:before {
+  content: "\2609";
+}
+
+.icon-BALLOTBOX:before {
+  content: "\2610";
+}
+
+.icon-BALLOTBOXWITHCHECK:before {
+  content: "\2611";
+}
+
+.icon-YINYANG:before {
+  content: "\262f";
+}
+
+.icon-WHITEFROWNINGFACE:before {
+  content: "\2639";
+}
+
+.icon-smileface:before {
+  content: "\263a";
+}
+
+.icon-invsmileface:before {
+  content: "\263b";
+}
+
+.icon-sun:before {
+  content: "\263c";
+}
+
+.icon-FIRSTQUARTERMOON:before {
+  content: "\263d";
+}
+
+.icon-LASTQUARTERMOON:before {
+  content: "\263e";
+}
+
+.icon-MERCURY:before {
+  content: "\263f";
+}
+
+.icon-female:before {
+  content: "\2640";
+}
+
+.icon-EARTH:before {
+  content: "\2641";
+}
+
+.icon-male:before {
+  content: "\2642";
+}
+
+.icon-spade:before {
+  content: "\2660";
+}
+
+.icon-WHITEHEARTSUIT:before {
+  content: "\2661";
+}
+
+.icon-WHITEDIAMONDSUIT:before {
+  content: "\2662";
+}
+
+.icon-club:before {
+  content: "\2663";
+}
+
+.icon-WHITESPADESUIT:before {
+  content: "\2664";
+}
+
+.icon-heart:before {
+  content: "\2665";
+}
+
+.icon-diamond:before {
+  content: "\2666";
+}
+
+.icon-WHITECLUBSUIT:before {
+  content: "\2667";
+}
+
+.icon-MEDIUMWHITECIRCLE:before {
+  content: "\26aa";
+}
+
+.icon-MEDIUMBLACKCIRCLE:before {
+  content: "\26ab";
+}
+
+.icon-NOENTRY:before {
+  content: "\26d4";
+}
+
+.icon-CapitalLetterLWITHMI:before {
+  content: "\2c62";
+}
+
+.icon-CapitalLetterPWITHST:before {
+  content: "\2c63";
+}
+
+.icon-CapitalLetterRWITHTA:before {
+  content: "\2c64";
+}
+
+.icon-CapitalLetterALPHA:before {
+  content: "\2c6d";
+}
+
+.icon-CapitalLetterMWITHHO:before {
+  content: "\2c6e";
+}
+
+.icon-CapitalLetterTURNEDA:before {
+  content: "\2c6f";
+}
+
+.icon-CapitalLetterTURNEDA:before {
+  content: "\2c70";
+}
+
+.icon-SMALLLETTERVWITHRIGH:before {
+  content: "\2c71";
+}
+
+.icon-CapitalLetterWWITHHO:before {
+  content: "\2c72";
+}
+
+.icon-SMALLLETTERWWITHHOOK:before {
+  content: "\2c73";
+}
+
+.icon-MODIFIERLETTERRAISED:before {
+  content: "\a71b";
+}
+
+.icon-MODIFIERLETTERRAISED:before {
+  content: "\a71c";
+}
+
+.icon-MODIFIERLETTERRAISED:before {
+  content: "\a71d";
+}
+
+.icon-MODIFIERLETTERCOLON:before {
+  content: "\a789";
+}
+
+.icon-MODIFIERLETTERSHORTE:before {
+  content: "\a78a";
+}
+
+.icon-CapitalLetterSALTILL:before {
+  content: "\a78b";
+}
+
+.icon-SMALLLETTERSALTILLO:before {
+  content: "\a78c";
+}
+
+.icon-CapitalLetterTURNEDH:before {
+  content: "\a78d";
+}
+
+.icon-SMALLLIGATUREFF:before {
+  content: "\fb00";
+}
+
+.icon-SMALLLIGATUREFI:before {
+  content: "\fb01";
+}
+
+.icon-SMALLLIGATUREFL:before {
+  content: "\fb02";
+}
+
+.icon-SMALLLIGATUREFFI:before {
+  content: "\fb03";
+}
+
+.icon-SMALLLIGATUREFFL:before {
+  content: "\fb04";
+}
+
+.icon-SMALLLIGATURELONGST:before {
+  content: "\fb05";
+}
+
+.icon-SMALLLIGATUREST:before {
+  content: "\fb06";
+}
+
+.icon-SMALLNUMBERSIGN:before {
+  content: "\fe5f";
+}
+
+.icon-FULLWIDTHCENTSIGN:before {
+  content: "\ffe0";
+}
+
+.icon-FULLWIDTHYENSIGN:before {
+  content: "\ffe5";
+}
+
+
+
