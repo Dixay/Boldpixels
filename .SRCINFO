@@ -1,0 +1,13 @@
+pkgbase = ttf-boldpixels
+	pkgdesc = BoldPixels TrueType font
+	pkgver = 1.5
+	pkgrel = 1
+	url = https://github.com/TymonMarek/ttf-boldpixels
+	arch = any
+	license = custom:CC-BY-SA-4.0
+	source = BoldPixels.ttf
+	source = LICENSE
+	sha256sums = bdee4cb0d6087bdebeb8a7cd1aeb3a44441ba9d1734cd1502f76acc25000d32e
+	sha256sums = 36cade70e42d0cbe06ba011a9e3e47a1e3f22af80af0a9bd70528e7ea1e63bd8
+
+pkgname = ttf-boldpixels
