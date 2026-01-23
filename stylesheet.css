@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'pixelsboldpixels';
+    src: url('boldpixels.eot');
+    src: url('boldpixels.eot?#iefix') format('embedded-opentype'),
+         url('boldpixels.woff2') format('woff2'),
+         url('boldpixels.woff') format('woff'),
+         url('boldpixels.ttf') format('truetype'),
+         url('boldpixels.svg#pixelsboldpixels') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
