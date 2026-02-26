@@ -10,27 +10,27 @@
 
 ## ✨ Features
 * **Pixel Perfect:** Designed on a 16px grid.
-* **Optimal Scaling:** Display at 16, 32, 48, 64, 80, 96px, etc... for crisp rendering.
-* **Massive Character Set:** Includes 1,500+ characters covering:
+* **Optimal Sizes:** Display at 16, 32, 48, 64, 80, 96 pixels, etc... for a perfect render.
+* **Character Set:** Includes 1,500+ characters covering:
   * Basic Latin & Supplement
   * Latin Extended A, B, and C
   * IPA Extensions
   * Cyrillic & Supplement
-  * Currency Symbols, Punctuation, and Diacritics.
-* **Language Support:** Supports **140+ languages**, including English, French, Spanish, German, Polish, Russian, Ukrainian, and more.
+  * Currency Symbols, Punctuation and Diacritics.
+* **Language:** Supports **100+ languages**, including English, French, Spanish, German, Polish, Russian, Ukrainian and more.
 
 ## 📁 Included Formats
 The release package includes everything you need for web, desktop, and game engine development:
 * **Standard:** `.TTF` (TrueType), `.OTF` (OpenType)
 * **Web:** `.WOFF`, `.WOFF2`, `.EOT`, `.SVG`
-* **Source & Specialized:** `.SFD` (FontForge), `.UFO`, `.DFONT`, `.PNG`
+* **Other:** `.SFD` (FontForge), `.UFO`, `.DFONT` and `.PNG`
 
 ## 📜 License
 This font is **completely free** for both personal and commercial use.
 
 BoldPixels is released under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
 
-* **Attribution:** You must give appropriate credit (mention **BoldPixels** by **Yūki (@yukipixels)**)
+* **Attribution:** You must give appropriate credit. Mention in your project's credits or "About" page **BoldPixels** by **Yūki (@yukipixels)**
 * **ShareAlike:** If you remix, transform, or build upon the font itself, you must distribute your contributions under the same license.
 * **Note to Developers:** Using this font in a game or artwork does **not** require your entire project to be licensed under CC BY-SA. Only modifications to the font files themselves are affected.
 
@@ -38,3 +38,4 @@ BoldPixels is released under the **Creative Commons Attribution-ShareAlike 4.0 I
 
 * **Itch:** [yukipixels.itch.io/boldpixels](https://yukipixels.itch.io/boldpixels)
 * **Socials:** [linktr.ee/yukipixels](https://linktr.ee/yukipixels)
+* **Contact:** yukipixels@gmail.com
