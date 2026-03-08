@@ -11,7 +11,7 @@
 ## ✨ Features
 * **Pixel Perfect:** Designed on a 16px grid.
 * **Optimal Sizes:** Display at 16, 32, 48, 64, 80, 96 pixels, etc... for a perfect render.
-* **Character Set:** Includes 1,500+ characters covering:
+* **Character Set:** Includes 1,000+ characters covering:
   * Basic Latin & Supplement
   * Latin Extended A, B, and C
   * IPA Extensions
@@ -25,7 +25,7 @@ The release package includes everything you need for web, desktop, and game engi
 * **Web:** `.WOFF`, `.WOFF2`, `.EOT`, `.SVG`
 * **Other:** `.SFD` (FontForge), `.UFO`, `.DFONT` and `.PNG`
 
-## 📜 License
+## 📃 License
 This font is **completely free** for both personal and commercial use.
 
 BoldPixels is released under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
@@ -34,8 +34,8 @@ BoldPixels is released under the **Creative Commons Attribution-ShareAlike 4.0 I
 * **ShareAlike:** If you remix, transform, or build upon the font itself, you must distribute your contributions under the same license.
 * **Note to Developers:** Using this font in a game or artwork does **not** require your entire project to be licensed under CC BY-SA. Only modifications to the font files themselves are affected.
 
-## 💖 Support and Links
+## 🔗 Support and Links
 
-* **Itch:** [yukipixels.itch.io/boldpixels](https://yukipixels.itch.io/boldpixels)
+* **Itch:** [yukipixels.itch.io](https://yukipixels.itch.io)
 * **Socials:** [linktr.ee/yukipixels](https://linktr.ee/yukipixels)
 * **Contact:** yukipixels@gmail.com
